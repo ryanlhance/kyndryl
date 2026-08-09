@@ -1054,7 +1054,18 @@
         {
           "type": "li",
           "segments": [
-            "Data science, AI/ML background"
+            "Data science, ",
+            {
+              "id": "ed-ai-background",
+              "text": "AI",
+              "evidence": [
+                "ev-ai-agents",
+                "ev-ai-product",
+                "ev-agentic-ops",
+                "ev-ai-training"
+              ]
+            },
+            "/ML background"
           ]
         },
         {

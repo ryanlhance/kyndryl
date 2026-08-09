@@ -471,7 +471,10 @@ def designer_prose():
            ["ev-psych", "ev-change", "ev-coaching"])
       ]},
       {"type": "li", "segments": [
-        "Data science, AI/ML background"
+        "Data science, ",
+        ph("ed-ai-background", "AI",
+           ["ev-ai-agents", "ev-ai-product", "ev-agentic-ops", "ev-ai-training"]),
+        "/ML background"
       ]},
       {"type": "li", "segments": [
         "You may specialize more deeply in:"
