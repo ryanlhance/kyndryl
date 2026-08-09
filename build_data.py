@@ -15,7 +15,8 @@ evidence = {
   "ev-ma": {"title": "Design-First Business Strategy M.A.", "text": "M.A. in Design-First Business Strategy from SCAD's De Sole School of Business Innovation — essentially an MBA crossbred with service design, built for intrapreneurship and using design thinking to influence decision making. My B.F.A. is from SCAD as well; business for film and television."},
   "ev-credentials": {"title": "Additional Credentials & Training", "text": "Beyond my Design-First Business Strategy M.A. and my B.F.A. in entertainment business from SCAD, I am a Gallup Certified Strengths Coach. Additionally, I have a certificate in Design for Urban Mobility from the University of Amsterdam, and have done multiple innovative business trainings in niche and offer design via Traffic & Funnels and offers, leads, and business models via Acquisition.com and their events."},
   "ev-wide-industry": {"title": "Wide Industry Experience", "years": "14+ years experience", "text": "Experience across 10+ industries and hundreds of niche personas across unrelated service verticals — film and TV, agriculture, counseling, fitness, hospitality, education, logistics, sports entertainment. I learn fast, dive deep, and have a proven ability to onboard quickly to and lead in any business domain."},
-  "ev-travel": {"title": "Happy to Travel", "text": "Would love to. 20 to 30% on the road interests me."},
+  "ev-travel-30": {"title": "Happy to Travel", "text": "Would love to. 30% on the road interests me."},
+  "ev-travel-40": {"title": "Happy to Travel", "text": "Would love to. 40% on the road interests me."},
 
   "ev-blueprinting": {"title": "Service Blueprinting", "years": "7+ years experience", "text": "Built service blueprints at every scale from a 450-point blueprint for a startup's information architecture and executive decision making to a 20,000+ point global, enterprise level blueprint to identify service, product, technology, and operational gaps and opportunities at Bayer.", "link": "https://www.hance.work/Local-Enterprise-Level-Service-Blueprint-74f9ecfa9f4a4873be1b909a7f5e37d8?pvs=25"},
   "ev-present-future": {"title": "Present State vs Future State", "years": "10+ years experience", "text": "I map the present state of an organization, business unit, or stakeholder journey to design the future state. The global blueprinting effort at Bayer existed to identify the present state of our tech stack and operational interactions and then make recommendations for future state: we delivered a present state map and a future state map. I did the same at Dryland Revival, mapping our current processes and then identifying new product and service opportunities for our customers and better ways of working for our teams."},
@@ -45,7 +46,6 @@ evidence = {
   "ev-process-optimization": {"title": "Process Optimization", "years": "13+ years experience", "text": "My background in film means that the first half of my career required doing literally unbelievable things with scarce resources. Now, I reengineer systems to allow for the streamlining of resources that will exercise the greatest efficiency. I helped a university logistics operation restructure for a 60% resource reduction, built a startup playbook library that lifted efficiency 80% and removed the CEO from lower-level decisions, and developed operating cadences and management systems that kept teams aligned through rapid growth in both my entertainment industry days and my startup experiences."},
 
   "ev-change": {"title": "Change Management", "years": "12+ years experience", "text": "Drove change and adoption in resistant systems my entire career: from navigating day-to-day and hour-by-hour changes on film sets to innovating decades old traditions while keeping the soul of the experience at a 1,500 person summer camp, including a decade old training program replaced with modern methods, creating a 67% year over year retention lift; a nationwide counseling franchise led through restructuring across states without a single layoff; a startup org redesign that doubled revenue and quadrupled headcount; moving a construction field crew into modern technology in the context of a phone based project management system; and leading a Fortune 500 AI platform from 2% to 26% adoption in two months."},
-  "ev-operating-cadences": {"title": "Operating Cadences", "years": "13+ years experience", "text": "Ran daily risk tracking and hour by hour plans across teams of 15 to 60 and multiple concurrent productions in the film industry. At Bayer, I built the scrum board, wrote the stories, and led scrum for a legacy platform team that had no ceremonies at all. At Dryland, I owned the operating cadences and reporting: the all hands meetings, trackers, and dashboards that all six teams ran on through a growth window that doubled revenue and quadrupled headcount year over year. Actively leading interaction cadences throughout my coaching programs the last eight years. Led operating cadences at Campus Carriers, Greene Family Camp, and the Delta Air Lines effort as well."},
   "ev-new-revenue": {"title": "New Revenue Lines", "years": "13+ years experience", "text": "I have pioneered new revenue lines across startups, franchises, and the Fortune 500. Developed a B2B2C education as a service line at Campus Carriers, owned end to end from primary market research through curriculum design, offer design, and pre-launch partnerships across seven partner universities. New service offerings designed and launched at Dryland Revival through a growth run that doubled revenue year over year for three years. Sustainable business models for thousands of Delta's obsolete beverage carts. An operations and marketing transformation at a physical health franchisee that opened the path to a second location. And my own ventures: a bicycle rental marketplace for a university, a community based product business grown to profitability, a vending machine business grown to profitability and exited, and multiple coaching and consulting practices grown to recurring five figure months."},
   "ev-biz-dev": {"title": "Business Development", "years": "10+ years experience", "text": "Built three consulting and coaching practices from scratch — structuring the offer, pricing, and go-to-market to land clients from day one, and led the business development that kept each running for 3+ years with consistent five-figure engagements. Led project development in the film industry before that, and led an effort selling an agentic persona service intrapreneurally at Bayer."},
 
@@ -59,7 +59,6 @@ evidence = {
   "ev-agile": {"title": "Agile Experience", "years": "4+ years experience", "text": "Worked inside agile product teams across four Bayer platforms: refined backlogs, aligned hundreds of technical stories to user needs, led user acceptance testing across the North American user base, then built out the scrum board — writing all the stories and leading scrum — for a legacy platform team."},
 
   "ev-mentorship": {"title": "Mentorship Experience", "years": "12+ years experience", "text": "Ran training and development for a 250 person camp staff, redesigning a program that lifted retention 67% year over year, am Gallup certified, trained leadership coach with almost eight years running my own coaching practice, and spent six years in film identifying underutilized talent, developing them through on set mentor matching, and enabling them to lead their own crews."},
-  "ev-training-design": {"title": "Training Program Design", "years": "7+ years experience", "text": "Redesigned a decade old staff training program at one of the country's largest residential summer camps (1,500 people a summer) using Self-Determination Theory as the leadership framework — driving a 67% year-over-year staff retention increase. This was after developing leadership training for the internal and external stakeholders at Campus Carriers and developing leadership programming for teens and young professionals, and before my more recent efforts designing leadership training for men 20s to 40s."},
   "ev-coaching": {"title": "Coaching", "years": "7+ years experience", "text": "Gallup Certified Strengths Coach trained in behavior and relationship psychology; almost eight years of facilitating leadership development in the context of empathy strategies and emotional intelligence professionally. Built a leadership development practice from scratch to five figure revenue months within six months, running and iterating workshops and facilitation opportunities since. I've coached hundreds of high school and college students through multi-month social-emotional learning and leadership programs, and hundreds of others through weekend retreats, cohorts, and high ticket 1:1 men's work, with custom tools for mental and emotional processing developed in line with my systems and design thinking background."},
   "ev-psych": {"title": "Human Behavior & Psychology", "years": "12+ years experience", "text": "Gallup Certified Strengths Coach trained in behavior and relationship psychology. This guides my deep empathy for user behavior, and my ability to influence change without authority. Eight years of teaching emotional intelligence and social emotional learning professionally means I can read motivations, needs and expectations, and emotions as a professional expertise, not a personality trait. I use that background to shape desirability and adoption."},
 
@@ -78,14 +77,13 @@ evidence = {
   "ev-agentic-ops": {"title": "Agentic Operations Design", "years": "3+ years experience", "text": "Currently transforming business operations through agentic experience design alongside human and AI skill development, increasing the efficiency and accuracy of leaders, teams, and individual contributors. I own transformation engagements from scoping and discovery through implementation and adoption, and build AI-native, tool-agnostic knowledge management systems for creative and operational teams, architected for both human and agent ease of retrieval."},
   "ev-responsible-ai": {"title": "Responsible AI", "years": "3+ years experience", "text": "I've been integrating AI into human systems since before commercial integrations existed — agentic personas validated by 20+ year subject-matter experts above 80% accuracy before teams were allowed to rely on them. I've also led stakeholder AI education from Indonesia to Brazil, and designed governance gates for agents to reduce failures and overstepping."},
   "ev-ai-tool-eval": {"title": "AI Tool Evaluation", "years": "4+ years experience", "text": "Regularly self train on unfamiliar enterprise software to the depth of evaluating vendor fit, proven at the Fortune 500 level and across startups. Drove a Fortune 500's Customer Data Platform vendor selection and gave strategic input on its internal LLM platform build. My goal is to identify the right tool for the right job and the right persona."},
-  "ev-km": {"title": "Knowledge Management", "years": "3+ years AI native experience", "text": "Building knowledge management systems across multiple technologies and technological eras. My priority is KM for retrieval augmented AI. I design AI-native, tool-agnostic hubs and agentic decision-making systems architected for both human and agent ease of retrieval. I believe the next few years of tech growth will see knowledge management and access as the top priority. I have been developing AI enabled experiences on that assumption since 2023 at the Fortune 500 level."},
   "ev-ai-product": {"title": "AI Product Strategy", "years": "3+ years experience", "text": "Led product strategy on the build out and adoption of Bayer's internal LLM platform pre-AI-boom, impacting design and product decisions and leading user testing. That work continues today as the core of my consulting practice. I build agentic, tool agnostic knowledge systems for creative and operational teams, design the prompt, workflow, and rule configurations they run on, and treat retrieval quality and human authored context as the leverage priority.", "link": "https://www.hance.work/A-I-Product-Roadmap-d042f4d986e5441bbb80b5e5ea4bd018?pvs=25"},
   "ev-ai-reliability": {"title": "AI Reliability & Quality", "years": "3+ years experience", "text": "Build AI systems that perform reliably in production by treating the knowledge layer as the priority. SME written or validated content over endless prompt tuning, corpus audits for the percentage actually authored by humans, retrieval and validation management and measurement, and active guarding against the context dilution that comes from LLMs overwriting good context over time. Proven at the Fortune 500 level at Bayer, where agentic personas grounded on internal research and customer data were validated above 80% accuracy by subject matter experts with 20+ years in the field."},
   "ev-rd-lab": {"title": "Personal R&D Lab", "years": "16+ years experience", "text": "My personal life is a constantly running R&D lab — I've been ramping on a new technology at least once a quarter since high school, and my current operating system pairs agentic AI workflows with a digital brain to extend what I can do. I love unfamiliar domains and emerging tech."},
 
   "ev-playbooks": {"title": "Playbook Writing", "years": "10+ years experience", "text": "Built an operations playbook at Campus Carriers that cut resource needs 60%, an entire startup playbook library that lifted efficiency 80% and removed the CEO from lower-level decisions at Dryland Revival, and a Fortune 500 AI strategy playbook shipped in 20+ languages at Bayer. This was all built on the foundation of playbook building for my teams in the film industry."},
   "ev-pm-system": {"title": "PM System Design", "years": "10+ years experience", "text": "I have designed and facilitated project management systems my whole career. In film, I designed the project management system that managed hundreds of productions and kept projects on time and on budget while our crew averaged six productions at a time, peaking between ten and twelve. At Dryland, I designed the automations and information architecture end to end: built in ClickUp, rebuilt in Monday.com and run on Zapier automations. Prioritizing one click steps for every stakeholder in each process. At Bayer, I built out the scrum board and wrote all the stories for a legacy platform team that had no user stories or change tracking. Today I build project management systems in Notion and Claude for clients and my own operation."},
-  "ev-tooling": {"title": "Tooling & Platforms", "years": "16+ years experience", "text": "Fluent across the tech stack I have built and shipped projects in: design and mapping (Miro, Mural, TheyDo), knowledge and docs (Notion, Obsidian), project management (Monday.com, ClickUp, Asana, Jira, Aha!, Motion, Profit.co), AI (Claude Code, Claude Cowork, the Claude API, ChatGPT and the OpenAI API, agentic tooling), research and analytics (MAXQDA, DisplayR, QuestionPro), commerce (Shopify), and the everyday collaboration tools (Microsoft 365, Google Suite, Slack, Zoom, Loom, Dropbox). I self train on unfamiliar enterprise software to the depth of evaluating vendor fit at least once a quarter."},
+  "ev-enterprise-migration": {"title": "Enterprise Tool Migration", "years": "4+ years experience", "text": "Led the migration of Bayer's global, enterprise level service blueprint from Miro to TheyDo — customer journey enablement at the enterprise level. I have also led multiple teams in migrating from Notion, Dropbox, Google Drive, and other knowledge sources to Obsidian via markdown strategy to become tool agnostic super users of their own information."},
 
   "ev-live-events": {"title": "Live Event Operations", "years": "14+ years experience", "text": "A decade producing live audience experiences — a full season of 100% sold out Savannah Bananas games, six years of music festival operations, and years of weekly events for a 1,500 person summer camp. Currently producing community gatherings."},
 
@@ -316,7 +314,7 @@ def strategist_prose():
       ]},
       {"type": "li", "segments": [
         ph("es-travel", "Ability to travel up to 30% as business requires",
-           ["ev-travel"])
+           ["ev-travel-30"])
       ]},
     ]
 
@@ -387,7 +385,7 @@ def designer_prose():
            ["ev-adoption", "ev-prototyping"]),
         ". You will ",
         ph("ed-share-knowledge", "actively share your knowledge of AI in design with others as part of your leadership, empowering your team to grow their proficiency",
-           ["ev-ai-training", "ev-mentorship", "ev-curriculum"]),
+           ["ev-ai-training", "ev-mentorship", "ev-curriculum", "pf-genai-playbook"]),
         ", while ",
         ph("ed-own-expertise", "continuing to develop your own expertise",
            ["ev-rd-lab"]),
@@ -446,7 +444,9 @@ def designer_prose():
       ]},
       {"type": "li", "segments": [
         {"b": "Importance Travel is Required"},
-        " Up to 40% or two days a week"
+        " ",
+        ph("ed-travel", "Up to 40% or two days a week",
+           ["ev-travel-40"])
       ]},
 
       {"type": "h2", "text": "Preferred Professional and Technical Expertise"},
@@ -463,9 +463,8 @@ def designer_prose():
            ["ev-13yrs", "ev-client-delivery"])
       ]},
       {"type": "li", "segments": [
-        "Knowledge and experience in IT infrastructure or ",
-        ph("ed-technical-apps", "other technical applications",
-           ["ev-tech-stack", "ev-vendor-selection", "ev-tooling"])
+        ph("ed-it-infrastructure", "Knowledge and experience in IT infrastructure or other technical applications",
+           ["ev-tech-stack", "ev-vendor-selection", "ev-enterprise-migration", "ev-ai-product"])
       ]},
       {"type": "li", "segments": [
         ph("ed-social-sciences", "Human behavior, change management, or other applied social sciences",
@@ -508,168 +507,9 @@ def designer_prose():
     ]
 
 
-# ---- Tab 3: AI Enablement Specialist ----
-def ai_enablement_prose():
-    return [
-      {"type": "h2", "text": "The Role"},
-
-      {"type": "h3", "text": "AI Tool Strategy"},
-      {"type": "li", "segments": [
-        "Help ",
-        ph("ae-tool-criteria", "define criteria for selecting new tools",
-           ["ev-ai-tool-eval", "ev-vendor-selection", "ev-metrics"]),
-        " to onboard into the AI Garage Lab"
-      ]},
-      {"type": "li", "segments": [
-        "Help ",
-        ph("ae-right-personas", "define the right tools for the right personas",
-           ["ev-ai-tool-eval", "ev-research"]),
-        " at Kyndryl"
-      ]},
-
-      {"type": "h3", "text": "Community Support & Engagement"},
-      {"type": "li", "segments": [
-        "Support Community Managers in ",
-        ph("ae-champions", "building and maintaining networks of AI champions and users",
-           ["ev-adoption", "ev-ai-training"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        "Assist with ",
-        ph("ae-enablement-sessions", "planning and execution of enablement sessions",
-           ["ev-facilitation", "ev-training-design"]),
-        ", hackathons, and showcases."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-coordinate", "Coordinate communications, logistics, and follow-ups to drive engagement across stakeholder communities",
-           ["ev-operating-cadences", "ev-adoption"]),
-        "."
-      ]},
-
-      {"type": "h3", "text": "Training & Enablement Delivery"},
-      {"type": "li", "segments": [
-        "Support ",
-        ph("ae-training-rollout", "rollout of training programs",
-           ["ev-training-design", "ev-ai-training"]),
-        ", including scheduling sessions and preparing materials."
-      ]},
-      {"type": "li", "segments": [
-        "Contribute to ",
-        ph("ae-enablement-content", "development of enablement content such as guides, demos, and quick reference materials",
-           ["ev-curriculum", "ev-playbooks", "pf-genai-playbook"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-facilitate-sessions", "Facilitate select sessions (e.g., office hours, walkthroughs)",
-           ["ev-facilitation", "ev-speaking"]),
-        " under guidance from senior team members."
-      ]},
-
-      {"type": "h3", "text": "AI@Work Program Execution (Immediate Focus)"},
-      {"type": "li", "segments": [
-        ph("ae-learning-sessions", "Co-lead weekly AI learning sessions including content preparation, demos, and Q&A",
-           ["ev-ai-training", "ev-facilitation", "ev-curriculum"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        "Maintain AI@Work ",
-        ph("ae-knowledge-hub", "knowledge hub with session replays, guides, and FAQs",
-           ["ev-km", "ev-ia"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        "Monitor and respond to community questions via channels such as Viva Engage, ensuring timely follow-up."
-      ]},
-
-      {"type": "h3", "text": "Metrics, Data & Operations Support"},
-      {"type": "li", "segments": [
-        "Manage AI tool usage data sets including collection, cleaning, and weekly refresh."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-adoption-metrics", "Track adoption and engagement metrics and support reporting for leadership",
-           ["ev-metrics", "ev-adoption", "ev-exec-alignment"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-it-security", "Coordinate with IT, Security, and Admin teams",
-           ["ev-xfn"]),
-        " on licensing, access, and issue resolution."
-      ]},
-
-      {"type": "h3", "text": "Advanced Enablement & Scale (Longer-Term)"},
-      {"type": "li", "segments": [
-        "Support development of ",
-        ph("ae-playbooks", "AI enablement playbooks and repeatable learning assets",
-           ["ev-playbooks", "ev-curriculum", "pf-genai-playbook"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-guardrails", "Guide advanced users to appropriate tools, environments, and governance guardrails",
-           ["ev-responsible-ai", "ev-ai-tool-eval"]),
-        " under leadership direction."
-      ]},
-      {"type": "li", "segments": [
-        "Help ",
-        ph("ae-scale-knowledge", "scale knowledge and best practices across the organization",
-           ["ev-ai-training", "ev-km", "ev-playbooks"]),
-        "."
-      ]},
-
-      {"type": "h2", "text": "Qualifications"},
-      {"type": "li", "segments": [
-        "1–3 years ",
-        ph("ae-enablement-experience", "experience in enablement, communications, program coordination, or related roles",
-           ["ev-ai-training", "ev-curriculum", "ev-concurrent-pm"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-ai-productivity-tools", "Exposure to AI productivity tools",
-           ["ev-tooling", "ev-ai-tool-eval"]),
-        " such as Microsoft 365 Copilot preferred."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-org-comms", "Strong organizational, coordination, and communication skills",
-           ["ev-operating-cadences", "ev-storytelling"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-senior-stakeholders", "Ability to work collaboratively with senior stakeholders and across cross-functional teams",
-           ["ev-exec-alignment", "ev-xfn"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-degree", "Bachelor’s degree in Communications, Business, Learning & Development, or related field (or equivalent experience)",
-           ["ev-ma", "ev-credentials"]),
-        "."
-      ]},
-
-      {"type": "h2", "text": "Preferred Skills"},
-      {"type": "li", "segments": [
-        ph("ae-microsoft", "Familiarity with Microsoft 365, Teams",
-           ["ev-tooling", "ev-ai-agents"]),
-        ", SharePoint, or Power Platform."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-internal-training", "Experience supporting internal training sessions, communications, or events",
-           ["ev-training-design", "ev-facilitation", "ev-live-events"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-change-enablement", "Basic understanding of AI tools, digital adoption, or change enablement concepts",
-           ["ev-adoption", "ev-change"]),
-        "."
-      ]},
-      {"type": "li", "segments": [
-        ph("ae-interest", "Interest in AI, emerging technologies, and workplace productivity",
-           ["ev-rd-lab", "ev-agentic-ops"]),
-        "."
-      ]},
-    ]
-
-
 LEDE = ("These are selected notes and resume points from Ryan Hance's career "
         "experience mapped to the actual Kyndryl job descriptions. Use the tabs "
-        "above to switch between the three open roles.")
+        "above to switch between the two open roles.")
 STAT = "Hover over any underlined phrase and select it to see Ryan's experience related to the ask."
 KICKER = "Ryan Hance · Fit Map"
 REMOTE = "Fully remote"
@@ -712,22 +552,6 @@ data = {
         "candidate_stat": STAT,
       },
       "jd_prose": designer_prose(),
-    },
-    {
-      "id": "ai-enablement-specialist",
-      "tab_label": "AI Enablement Specialist",
-      "job": {
-        "company": "Kyndryl",
-        "role": "AI Enablement Specialist",
-        "employment": "",
-        "location": REMOTE + " · Home office New York, NY · Full time · Req R-61971",
-        "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/New-York-NY-USA/AI-Enablement-Specialist_R-61971-1",
-        "tab_title": "Ryan Hance · Fit Map",
-        "candidate_kicker": KICKER,
-        "candidate_lede": LEDE,
-        "candidate_stat": STAT,
-      },
-      "jd_prose": ai_enablement_prose(),
     },
   ],
   "evidence": evidence,

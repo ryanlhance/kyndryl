@@ -16,7 +16,7 @@
         "url": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/US152580-New-York-US152580-One-Vanderbilt/Senior-Experience-Strategist_R-64623",
         "tab_title": "Ryan Hance · Fit Map",
         "candidate_kicker": "Ryan Hance · Fit Map",
-        "candidate_lede": "These are selected notes and resume points from Ryan Hance's career experience mapped to the actual Kyndryl job descriptions. Use the tabs above to switch between the three open roles.",
+        "candidate_lede": "These are selected notes and resume points from Ryan Hance's career experience mapped to the actual Kyndryl job descriptions. Use the tabs above to switch between the two open roles.",
         "candidate_stat": "Hover over any underlined phrase and select it to see Ryan's experience related to the ask."
       },
       "jd_prose": [
@@ -607,7 +607,7 @@
               "id": "es-travel",
               "text": "Ability to travel up to 30% as business requires",
               "evidence": [
-                "ev-travel"
+                "ev-travel-30"
               ]
             }
           ]
@@ -625,7 +625,7 @@
         "url": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/Dallas-TX-USA/Senior-Experience-Designer_R-64646",
         "tab_title": "Ryan Hance · Fit Map",
         "candidate_kicker": "Ryan Hance · Fit Map",
-        "candidate_lede": "These are selected notes and resume points from Ryan Hance's career experience mapped to the actual Kyndryl job descriptions. Use the tabs above to switch between the three open roles.",
+        "candidate_lede": "These are selected notes and resume points from Ryan Hance's career experience mapped to the actual Kyndryl job descriptions. Use the tabs above to switch between the two open roles.",
         "candidate_stat": "Hover over any underlined phrase and select it to see Ryan's experience related to the ask."
       },
       "jd_prose": [
@@ -815,7 +815,8 @@
               "evidence": [
                 "ev-ai-training",
                 "ev-mentorship",
-                "ev-curriculum"
+                "ev-curriculum",
+                "pf-genai-playbook"
               ]
             },
             ", while ",
@@ -967,7 +968,14 @@
             {
               "b": "Importance Travel is Required"
             },
-            " Up to 40% or two days a week"
+            " ",
+            {
+              "id": "ed-travel",
+              "text": "Up to 40% or two days a week",
+              "evidence": [
+                "ev-travel-40"
+              ]
+            }
           ]
         },
         {
@@ -1017,14 +1025,14 @@
         {
           "type": "li",
           "segments": [
-            "Knowledge and experience in IT infrastructure or ",
             {
-              "id": "ed-technical-apps",
-              "text": "other technical applications",
+              "id": "ed-it-infrastructure",
+              "text": "Knowledge and experience in IT infrastructure or other technical applications",
               "evidence": [
                 "ev-tech-stack",
                 "ev-vendor-selection",
-                "ev-tooling"
+                "ev-enterprise-migration",
+                "ev-ai-product"
               ]
             }
           ]
@@ -1155,424 +1163,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "ai-enablement-specialist",
-      "tab_label": "AI Enablement Specialist",
-      "job": {
-        "company": "Kyndryl",
-        "role": "AI Enablement Specialist",
-        "employment": "",
-        "location": "Fully remote · Home office New York, NY · Full time · Req R-61971",
-        "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/New-York-NY-USA/AI-Enablement-Specialist_R-61971-1",
-        "tab_title": "Ryan Hance · Fit Map",
-        "candidate_kicker": "Ryan Hance · Fit Map",
-        "candidate_lede": "These are selected notes and resume points from Ryan Hance's career experience mapped to the actual Kyndryl job descriptions. Use the tabs above to switch between the three open roles.",
-        "candidate_stat": "Hover over any underlined phrase and select it to see Ryan's experience related to the ask."
-      },
-      "jd_prose": [
-        {
-          "type": "h2",
-          "text": "The Role"
-        },
-        {
-          "type": "h3",
-          "text": "AI Tool Strategy"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Help ",
-            {
-              "id": "ae-tool-criteria",
-              "text": "define criteria for selecting new tools",
-              "evidence": [
-                "ev-ai-tool-eval",
-                "ev-vendor-selection",
-                "ev-metrics"
-              ]
-            },
-            " to onboard into the AI Garage Lab"
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Help ",
-            {
-              "id": "ae-right-personas",
-              "text": "define the right tools for the right personas",
-              "evidence": [
-                "ev-ai-tool-eval",
-                "ev-research"
-              ]
-            },
-            " at Kyndryl"
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Community Support & Engagement"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Support Community Managers in ",
-            {
-              "id": "ae-champions",
-              "text": "building and maintaining networks of AI champions and users",
-              "evidence": [
-                "ev-adoption",
-                "ev-ai-training"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Assist with ",
-            {
-              "id": "ae-enablement-sessions",
-              "text": "planning and execution of enablement sessions",
-              "evidence": [
-                "ev-facilitation",
-                "ev-training-design"
-              ]
-            },
-            ", hackathons, and showcases."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-coordinate",
-              "text": "Coordinate communications, logistics, and follow-ups to drive engagement across stakeholder communities",
-              "evidence": [
-                "ev-operating-cadences",
-                "ev-adoption"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Training & Enablement Delivery"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Support ",
-            {
-              "id": "ae-training-rollout",
-              "text": "rollout of training programs",
-              "evidence": [
-                "ev-training-design",
-                "ev-ai-training"
-              ]
-            },
-            ", including scheduling sessions and preparing materials."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Contribute to ",
-            {
-              "id": "ae-enablement-content",
-              "text": "development of enablement content such as guides, demos, and quick reference materials",
-              "evidence": [
-                "ev-curriculum",
-                "ev-playbooks",
-                "pf-genai-playbook"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-facilitate-sessions",
-              "text": "Facilitate select sessions (e.g., office hours, walkthroughs)",
-              "evidence": [
-                "ev-facilitation",
-                "ev-speaking"
-              ]
-            },
-            " under guidance from senior team members."
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "AI@Work Program Execution (Immediate Focus)"
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-learning-sessions",
-              "text": "Co-lead weekly AI learning sessions including content preparation, demos, and Q&A",
-              "evidence": [
-                "ev-ai-training",
-                "ev-facilitation",
-                "ev-curriculum"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Maintain AI@Work ",
-            {
-              "id": "ae-knowledge-hub",
-              "text": "knowledge hub with session replays, guides, and FAQs",
-              "evidence": [
-                "ev-km",
-                "ev-ia"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Monitor and respond to community questions via channels such as Viva Engage, ensuring timely follow-up."
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Metrics, Data & Operations Support"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Manage AI tool usage data sets including collection, cleaning, and weekly refresh."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-adoption-metrics",
-              "text": "Track adoption and engagement metrics and support reporting for leadership",
-              "evidence": [
-                "ev-metrics",
-                "ev-adoption",
-                "ev-exec-alignment"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-it-security",
-              "text": "Coordinate with IT, Security, and Admin teams",
-              "evidence": [
-                "ev-xfn"
-              ]
-            },
-            " on licensing, access, and issue resolution."
-          ]
-        },
-        {
-          "type": "h3",
-          "text": "Advanced Enablement & Scale (Longer-Term)"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Support development of ",
-            {
-              "id": "ae-playbooks",
-              "text": "AI enablement playbooks and repeatable learning assets",
-              "evidence": [
-                "ev-playbooks",
-                "ev-curriculum",
-                "pf-genai-playbook"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-guardrails",
-              "text": "Guide advanced users to appropriate tools, environments, and governance guardrails",
-              "evidence": [
-                "ev-responsible-ai",
-                "ev-ai-tool-eval"
-              ]
-            },
-            " under leadership direction."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            "Help ",
-            {
-              "id": "ae-scale-knowledge",
-              "text": "scale knowledge and best practices across the organization",
-              "evidence": [
-                "ev-ai-training",
-                "ev-km",
-                "ev-playbooks"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "Qualifications"
-        },
-        {
-          "type": "li",
-          "segments": [
-            "1–3 years ",
-            {
-              "id": "ae-enablement-experience",
-              "text": "experience in enablement, communications, program coordination, or related roles",
-              "evidence": [
-                "ev-ai-training",
-                "ev-curriculum",
-                "ev-concurrent-pm"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-ai-productivity-tools",
-              "text": "Exposure to AI productivity tools",
-              "evidence": [
-                "ev-tooling",
-                "ev-ai-tool-eval"
-              ]
-            },
-            " such as Microsoft 365 Copilot preferred."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-org-comms",
-              "text": "Strong organizational, coordination, and communication skills",
-              "evidence": [
-                "ev-operating-cadences",
-                "ev-storytelling"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-senior-stakeholders",
-              "text": "Ability to work collaboratively with senior stakeholders and across cross-functional teams",
-              "evidence": [
-                "ev-exec-alignment",
-                "ev-xfn"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-degree",
-              "text": "Bachelor’s degree in Communications, Business, Learning & Development, or related field (or equivalent experience)",
-              "evidence": [
-                "ev-ma",
-                "ev-credentials"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "h2",
-          "text": "Preferred Skills"
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-microsoft",
-              "text": "Familiarity with Microsoft 365, Teams",
-              "evidence": [
-                "ev-tooling",
-                "ev-ai-agents"
-              ]
-            },
-            ", SharePoint, or Power Platform."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-internal-training",
-              "text": "Experience supporting internal training sessions, communications, or events",
-              "evidence": [
-                "ev-training-design",
-                "ev-facilitation",
-                "ev-live-events"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-change-enablement",
-              "text": "Basic understanding of AI tools, digital adoption, or change enablement concepts",
-              "evidence": [
-                "ev-adoption",
-                "ev-change"
-              ]
-            },
-            "."
-          ]
-        },
-        {
-          "type": "li",
-          "segments": [
-            {
-              "id": "ae-interest",
-              "text": "Interest in AI, emerging technologies, and workplace productivity",
-              "evidence": [
-                "ev-rd-lab",
-                "ev-agentic-ops"
-              ]
-            },
-            "."
-          ]
-        }
-      ]
     }
   ],
   "evidence": {
@@ -1597,9 +1187,13 @@
       "years": "14+ years experience",
       "text": "Experience across 10+ industries and hundreds of niche personas across unrelated service verticals — film and TV, agriculture, counseling, fitness, hospitality, education, logistics, sports entertainment. I learn fast, dive deep, and have a proven ability to onboard quickly to and lead in any business domain."
     },
-    "ev-travel": {
+    "ev-travel-30": {
       "title": "Happy to Travel",
-      "text": "Would love to. 20 to 30% on the road interests me."
+      "text": "Would love to. 30% on the road interests me."
+    },
+    "ev-travel-40": {
+      "title": "Happy to Travel",
+      "text": "Would love to. 40% on the road interests me."
     },
     "ev-blueprinting": {
       "title": "Service Blueprinting",
@@ -1729,11 +1323,6 @@
       "years": "12+ years experience",
       "text": "Drove change and adoption in resistant systems my entire career: from navigating day-to-day and hour-by-hour changes on film sets to innovating decades old traditions while keeping the soul of the experience at a 1,500 person summer camp, including a decade old training program replaced with modern methods, creating a 67% year over year retention lift; a nationwide counseling franchise led through restructuring across states without a single layoff; a startup org redesign that doubled revenue and quadrupled headcount; moving a construction field crew into modern technology in the context of a phone based project management system; and leading a Fortune 500 AI platform from 2% to 26% adoption in two months."
     },
-    "ev-operating-cadences": {
-      "title": "Operating Cadences",
-      "years": "13+ years experience",
-      "text": "Ran daily risk tracking and hour by hour plans across teams of 15 to 60 and multiple concurrent productions in the film industry. At Bayer, I built the scrum board, wrote the stories, and led scrum for a legacy platform team that had no ceremonies at all. At Dryland, I owned the operating cadences and reporting: the all hands meetings, trackers, and dashboards that all six teams ran on through a growth window that doubled revenue and quadrupled headcount year over year. Actively leading interaction cadences throughout my coaching programs the last eight years. Led operating cadences at Campus Carriers, Greene Family Camp, and the Delta Air Lines effort as well."
-    },
     "ev-new-revenue": {
       "title": "New Revenue Lines",
       "years": "13+ years experience",
@@ -1788,11 +1377,6 @@
       "title": "Mentorship Experience",
       "years": "12+ years experience",
       "text": "Ran training and development for a 250 person camp staff, redesigning a program that lifted retention 67% year over year, am Gallup certified, trained leadership coach with almost eight years running my own coaching practice, and spent six years in film identifying underutilized talent, developing them through on set mentor matching, and enabling them to lead their own crews."
-    },
-    "ev-training-design": {
-      "title": "Training Program Design",
-      "years": "7+ years experience",
-      "text": "Redesigned a decade old staff training program at one of the country's largest residential summer camps (1,500 people a summer) using Self-Determination Theory as the leadership framework — driving a 67% year-over-year staff retention increase. This was after developing leadership training for the internal and external stakeholders at Campus Carriers and developing leadership programming for teens and young professionals, and before my more recent efforts designing leadership training for men 20s to 40s."
     },
     "ev-coaching": {
       "title": "Coaching",
@@ -1876,11 +1460,6 @@
       "years": "4+ years experience",
       "text": "Regularly self train on unfamiliar enterprise software to the depth of evaluating vendor fit, proven at the Fortune 500 level and across startups. Drove a Fortune 500's Customer Data Platform vendor selection and gave strategic input on its internal LLM platform build. My goal is to identify the right tool for the right job and the right persona."
     },
-    "ev-km": {
-      "title": "Knowledge Management",
-      "years": "3+ years AI native experience",
-      "text": "Building knowledge management systems across multiple technologies and technological eras. My priority is KM for retrieval augmented AI. I design AI-native, tool-agnostic hubs and agentic decision-making systems architected for both human and agent ease of retrieval. I believe the next few years of tech growth will see knowledge management and access as the top priority. I have been developing AI enabled experiences on that assumption since 2023 at the Fortune 500 level."
-    },
     "ev-ai-product": {
       "title": "AI Product Strategy",
       "years": "3+ years experience",
@@ -1907,10 +1486,10 @@
       "years": "10+ years experience",
       "text": "I have designed and facilitated project management systems my whole career. In film, I designed the project management system that managed hundreds of productions and kept projects on time and on budget while our crew averaged six productions at a time, peaking between ten and twelve. At Dryland, I designed the automations and information architecture end to end: built in ClickUp, rebuilt in Monday.com and run on Zapier automations. Prioritizing one click steps for every stakeholder in each process. At Bayer, I built out the scrum board and wrote all the stories for a legacy platform team that had no user stories or change tracking. Today I build project management systems in Notion and Claude for clients and my own operation."
     },
-    "ev-tooling": {
-      "title": "Tooling & Platforms",
-      "years": "16+ years experience",
-      "text": "Fluent across the tech stack I have built and shipped projects in: design and mapping (Miro, Mural, TheyDo), knowledge and docs (Notion, Obsidian), project management (Monday.com, ClickUp, Asana, Jira, Aha!, Motion, Profit.co), AI (Claude Code, Claude Cowork, the Claude API, ChatGPT and the OpenAI API, agentic tooling), research and analytics (MAXQDA, DisplayR, QuestionPro), commerce (Shopify), and the everyday collaboration tools (Microsoft 365, Google Suite, Slack, Zoom, Loom, Dropbox). I self train on unfamiliar enterprise software to the depth of evaluating vendor fit at least once a quarter."
+    "ev-enterprise-migration": {
+      "title": "Enterprise Tool Migration",
+      "years": "4+ years experience",
+      "text": "Led the migration of Bayer's global, enterprise level service blueprint from Miro to TheyDo — customer journey enablement at the enterprise level. I have also led multiple teams in migrating from Notion, Dropbox, Google Drive, and other knowledge sources to Obsidian via markdown strategy to become tool agnostic super users of their own information."
     },
     "ev-live-events": {
       "title": "Live Event Operations",

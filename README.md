@@ -1,6 +1,6 @@
 # Ryan Hance · Kyndryl Fit Map
 
-An interactive view of three Kyndryl job descriptions: Senior Experience Strategist, Senior Experience Designer, and AI Enablement Specialist. Tabs switch between the roles. Underlined phrases open a side panel with notes from Ryan's career experience relevant to that part of the role.
+An interactive view of two Kyndryl job descriptions: Senior Experience Strategist and Senior Experience Designer. Tabs switch between the roles. Underlined phrases open a side panel with notes from Ryan's career experience relevant to that part of the role.
 
 **Live page:** https://ryanlhance.github.io/kyndryl/
 
