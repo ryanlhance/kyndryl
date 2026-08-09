@@ -95,6 +95,7 @@ evidence = {
   "pf-cdp": {"title": "Customer Data Platform Roadmap", "text": "The use cases and roadmap, built from the customer-experience perspective, that anchored a Fortune 500's Customer Data Platform vendor selection.", "link": "https://www.hance.work/Customer-Data-Platform-Roadmap-0d65a3c99943497e9c969160e33742a2?pvs=25"},
   "pf-ai-roadmap": {"title": "A.I. Product Roadmap", "text": "Product roadmap for a Fortune 500's internal AI platform, defining the use cases and the path to adoption.", "link": "https://www.hance.work/A-I-Product-Roadmap-d042f4d986e5441bbb80b5e5ea4bd018?pvs=25"},
   "pf-genai-playbook": {"title": "Generative A.I. Playbook", "text": "The AI strategy playbook that drove adoption from 2% to 26%, shipped in 20+ languages to thousands of users.", "link": "https://www.hance.work/Generative-A-I-Playbook-bb68ca8c80d840e5be083136a0b88f92?pvs=25"},
+  "pf-skills-map": {"title": "Skills Constellation", "text": "An interactive map of my skill set — several hundred skills clustered by discipline and weighted by proof, from signature strengths to resume-backed to otherwise demonstrated.", "link": "https://ryanlhance.github.io/skills/"},
   "pf-legacy-ux": {"title": "Legacy Software UX Strategy", "text": "Restructured forms, progress indicators, and language to make a legacy platform more efficient and usable.", "link": "https://www.hance.work/Legacy-Software-UX-Strategy-e189dab0fccc4d088f0f8e2a22b009a9?pvs=25"},
   "pf-prompt": {"title": "Prompt Engineering Strategic Design", "text": "A prompt engineering approach and template that let non-technical stakeholders across the company use generative AI effectively for the first time.", "link": "https://www.hance.work/Prompt-Engineering-Strategic-Design-40891c882c00477e936743a5d0657ddc?pvs=25"},
 }
@@ -256,8 +257,11 @@ def strategist_prose():
         ph("es-research-label", "Conduct Research and Analysis",
            ["ev-research", "ev-research-tools"], bold=True),
         ": You can ",
-        ph("es-qual-quant", "design and conduct qualitative and quantitative research, concept evaluations, and competitive analyses",
-           ["ev-research", "ev-research-tools", "ev-testing", "ev-insights"]),
+        ph("es-qual-quant", "design and conduct qualitative and quantitative research, concept evaluations",
+           ["ev-research", "ev-research-tools", "ev-testing"]),
+        ", and ",
+        ph("es-competitive", "competitive analyses",
+           ["ev-ma", "ev-insights", "ev-gtm", "ev-biz-model"]),
         " \u2013 ",
         ph("es-trends", "identifying trends, opportunities, and potential threats to inform the future state CX vision",
            ["ev-insights", "ev-early-risk", "ev-present-future"]),
@@ -503,7 +507,10 @@ def designer_prose():
       ]},
       {"type": "li2", "segments": ["Graphic Design"]},
       {"type": "li2", "segments": ["Environmental Design"]},
-      {"type": "li2", "segments": ["Data Visualization"]},
+      {"type": "li2", "segments": [
+        ph("ed-dataviz", "Data Visualization",
+           ["pf-skills-map", "ev-systems-mapping", "ev-ia"])
+      ]},
 
       {"type": "h2", "text": "Required Education"},
       {"type": "p", "segments": [

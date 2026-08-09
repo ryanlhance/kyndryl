@@ -482,12 +482,22 @@
             ": You can ",
             {
               "id": "es-qual-quant",
-              "text": "design and conduct qualitative and quantitative research, concept evaluations, and competitive analyses",
+              "text": "design and conduct qualitative and quantitative research, concept evaluations",
               "evidence": [
                 "ev-research",
                 "ev-research-tools",
-                "ev-testing",
-                "ev-insights"
+                "ev-testing"
+              ]
+            },
+            ", and ",
+            {
+              "id": "es-competitive",
+              "text": "competitive analyses",
+              "evidence": [
+                "ev-ma",
+                "ev-insights",
+                "ev-gtm",
+                "ev-biz-model"
               ]
             },
             " – ",
@@ -1242,7 +1252,15 @@
         {
           "type": "li2",
           "segments": [
-            "Data Visualization"
+            {
+              "id": "ed-dataviz",
+              "text": "Data Visualization",
+              "evidence": [
+                "pf-skills-map",
+                "ev-systems-mapping",
+                "ev-ia"
+              ]
+            }
           ]
         },
         {
@@ -1652,6 +1670,11 @@
       "title": "Generative A.I. Playbook",
       "text": "The AI strategy playbook that drove adoption from 2% to 26%, shipped in 20+ languages to thousands of users.",
       "link": "https://www.hance.work/Generative-A-I-Playbook-bb68ca8c80d840e5be083136a0b88f92?pvs=25"
+    },
+    "pf-skills-map": {
+      "title": "Skills Constellation",
+      "text": "An interactive map of my skill set — several hundred skills clustered by discipline and weighted by proof, from signature strengths to resume-backed to otherwise demonstrated.",
+      "link": "https://ryanlhance.github.io/skills/"
     },
     "pf-legacy-ux": {
       "title": "Legacy Software UX Strategy",
