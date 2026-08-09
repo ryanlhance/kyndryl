@@ -99,8 +99,11 @@ evidence = {
   "pf-prompt": {"title": "Prompt Engineering Strategic Design", "text": "A prompt engineering approach and template that let non-technical stakeholders across the company use generative AI effectively for the first time.", "link": "https://www.hance.work/Prompt-Engineering-Strategic-Design-40891c882c00477e936743a5d0657ddc?pvs=25"},
 }
 
-def ph(pid, text, ev):
-    return {"id": pid, "text": text, "evidence": ev}
+def ph(pid, text, ev, bold=False):
+    d = {"id": pid, "text": text, "evidence": ev}
+    if bold:
+        d["bold"] = True   # employer's own bold lead-in, kept bold while underlined
+    return d
 
 
 # ---- Tab 1: Senior Experience Strategist (primary, default on load) ----
@@ -109,26 +112,20 @@ def strategist_prose():
       {"type": "h2", "text": "The Role"},
       {"type": "p", "segments": [
         "As a Senior Experience Strategist in Kyndryl Vital, you will ",
-        ph("es-gtm", "shape the go‑to‑market strategy",
-           ["ev-gtm", "ev-biz-model"]),
-        " and ",
-        ph("es-presales", "create high‑impact pre‑sales content",
-           ["ev-biz-dev", "ev-storytelling"]),
-        " that fuels Customer Experience (CX) pipeline growth. You will translate market needs and human‑centered approaches into ",
-        ph("es-offerings", "compelling offerings, narratives, and solution frameworks",
-           ["ev-gtm", "ev-decision-frameworks", "ev-strategic-writing"]),
-        " that empower sellers, differentiate Kyndryl in the market, and ",
-        ph("es-win-deals", "win deals",
-           ["ev-biz-dev"]),
+        ph("es-gtm", "shape the go\u2011to\u2011market strategy and create high\u2011impact pre\u2011sales content that fuels Customer Experience (CX) pipeline growth",
+           ["ev-gtm", "ev-biz-dev", "ev-storytelling", "ev-new-revenue"]),
+        ". You will ",
+        ph("es-offerings", "translate market needs and human\u2011centered approaches into compelling offerings, narratives, and solution frameworks",
+           ["ev-research", "ev-gtm", "ev-decision-frameworks", "ev-strategic-writing"]),
+        " that ",
+        ph("es-win-deals", "empower sellers, differentiate Kyndryl in the market, and win deals",
+           ["ev-biz-dev", "ev-playbooks", "ev-exec-alignment", "ev-gtm"]),
         ". This role blends ",
         ph("es-blend", "strategic thinking, customer empathy, and storytelling excellence",
            ["ev-systems-thinking", "ev-psych", "ev-storytelling"]),
         " to ",
-        ph("es-buying", "influence buying decisions",
-           ["ev-exec-alignment", "ev-decision-frameworks"]),
-        " and ",
-        ph("es-revenue", "accelerate revenue",
-           ["ev-new-revenue"]),
+        ph("es-buying", "influence buying decisions and accelerate revenue",
+           ["ev-exec-alignment", "ev-new-revenue", "ev-decision-frameworks"]),
         "."
       ]},
 
@@ -147,9 +144,9 @@ def strategist_prose():
         ph("es-simplify", "the ability to simplify complexity into compelling narratives",
            ["ev-systems-mapping", "ev-storytelling"]),
         ". You ",
-        ph("es-collaborative", "thrive in collaborative, cross-functional environments",
-           ["ev-xfn"]),
-        " and are energized by helping teams win in the CX market. You ",
+        ph("es-collaborative", "thrive in collaborative, cross-functional environments and are energized by helping teams win in the CX market",
+           ["ev-xfn", "ev-facilitation", "ev-biz-dev"]),
+        ". You ",
         ph("es-experimentation", "embrace experimentation, human-centered thinking, and continuous learning",
            ["ev-prototyping", "ev-research", "ev-rd-lab"]),
         "."
@@ -158,23 +155,16 @@ def strategist_prose():
       {"type": "h2", "text": "Required Skills and Experience"},
 
       {"type": "li", "segments": [
-        {"b": "Create Compelling Pre Sales Content"},
+        ph("es-presales-label", "Create Compelling Pre Sales Content",
+           ["ev-biz-dev", "ev-gtm", "ev-storytelling"], bold=True),
         ": ",
-        ph("es-reusable-assets", "Develop resuable assets",
-           ["ev-playbooks", "ev-decision-frameworks"]),
-        ", ",
-        ph("es-pitch-materials", "pitch materials, value propositions",
-           ["ev-gtm", "ev-speaking"]),
-        ", compelling POVs, ",
-        ph("es-narratives", "storytelling frameworks, and executive-ready narratives",
-           ["ev-storytelling", "ev-strategic-writing"]),
-        " that clearly articulate ",
-        ph("es-outcomes-impact", "customer outcomes and business impact",
-           ["ev-metrics", "ev-translator"]),
+        ph("es-presales", "Develop resuable assets, pitch materials, value propositions, compelling POVs, storytelling frameworks, and executive-ready narratives that clearly articulate customer outcomes and business impact",
+           ["ev-playbooks", "ev-strategic-writing", "ev-speaking", "ev-metrics"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Business + Tech + Experience"},
+        ph("es-bte-label", "Business + Tech + Experience",
+           ["ev-translator", "ev-tech-stack", "ev-design-fluency"], bold=True),
         ": You can ",
         ph("es-integrated-strategies", "create integrated experience strategies that blend business, technology, and user needs",
            ["ev-translator", "ev-tech-stack", "ev-experience-design"]),
@@ -187,37 +177,44 @@ def strategist_prose():
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Business Acumen"},
+        ph("es-acumen-label", "Business Acumen",
+           ["ev-ma", "ev-biz-model"], bold=True),
         ": You ",
-        ph("es-business-strategy", "understand business strategy and can connect it to experience",
-           ["ev-ma", "ev-design-fluency", "ev-biz-model"]),
-        " and ",
-        ph("es-experience-led", "help others understand the value of experience-led outcomes",
-           ["ev-exec-alignment", "ev-facilitation", "ev-design-standards"])
+        ph("es-business-strategy", "understand business strategy and can connect it to experience and help others understand the value of experience-led outcomes",
+           ["ev-ma", "ev-design-fluency", "ev-exec-alignment", "ev-facilitation"])
       ]},
       {"type": "li", "segments": [
-        {"b": "Experience Optimization"},
+        ph("es-optimization-label", "Experience Optimization",
+           ["ev-process-optimization", "ev-present-future"], bold=True),
         ": You can ",
         ph("es-optimize", "evaluate and recommend ways to optimize customer and employee experiences",
            ["ev-present-future", "ev-journey-mapping", "ev-process-optimization"]),
         ", including ",
         ph("es-moments", "moments that could be improved with self-serve, AI, automation, and empowerment across the end-to-end journey",
            ["ev-agentic-ops", "ev-pm-system", "ev-blueprinting"]),
-        ", including leveraging AI, automation, and self-service capabilities to improve usability and efficiency."
-      ]},
-      {"type": "li", "segments": [
-        {"b": "AI Use Case Contribution"},
-        ": You contribute to ",
-        ph("es-ai-use-cases", "identifying and shaping AI-enabled experience opportunities within projects",
-           ["ev-ai-product", "ev-ai-agents", "pf-ai-roadmap"]),
-        ", supporting senior team members in ",
-        ph("es-feasibility", "evaluating feasibility and value",
-           ["ev-ai-tool-eval", "ev-metrics"]),
+        ", including ",
+        ph("es-usability-efficiency", "leveraging AI, automation, and self-service capabilities to improve usability and efficiency",
+           ["ev-agentic-ops", "ev-process-optimization", "ev-testing"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Design and deliver solutions"},
-        ": Create strategic deliverables such as ",
+        ph("es-aiusecase-label", "AI Use Case Contribution",
+           ["ev-ai-product", "ev-ai-agents"], bold=True),
+        ": You contribute to ",
+        ph("es-ai-use-cases", "identifying and shaping AI-enabled experience opportunities within projects",
+           ["ev-ai-product", "ev-ai-agents", "pf-ai-roadmap"]),
+        ", ",
+        ph("es-feasibility", "supporting senior team members in evaluating feasibility and value",
+           ["ev-ai-tool-eval", "ev-metrics", "ev-exec-alignment"]),
+        "."
+      ]},
+      {"type": "li", "segments": [
+        ph("es-deliver-label", "Design and deliver solutions",
+           ["ev-service-design", "ev-client-delivery"], bold=True),
+        ": ",
+        ph("es-strategic-deliverables", "Create strategic deliverables",
+           ["ev-blueprinting", "ev-systems-mapping", "ev-strategic-writing"]),
+        " such as ",
         ph("es-experience-maps", "experience maps",
            ["ev-systems-mapping", "pf-eraf"]),
         ", ",
@@ -232,74 +229,73 @@ def strategist_prose():
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Co-Creation"},
+        ph("es-cocreation-label", "Co-Creation",
+           ["ev-facilitation"], bold=True),
         ": You excel at ",
         ph("es-align-workshops", "aligning stakeholders through workshops and collaborative sessions",
            ["ev-facilitation", "ev-xfn"]),
-        ". You’ve ",
+        ". You\u2019ve ",
         ph("es-future-state-sessions", "facilitated brainstorming / future-state innovation sessions and use case development",
-           ["ev-present-future", "ev-decision-frameworks"]),
+           ["ev-present-future", "ev-decision-frameworks", "ev-facilitation"]),
         " that ",
         ph("es-pocs", "foster experimentation and POCs/prototypes",
            ["ev-prototyping", "ev-ai-agents"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Storytelling"},
+        ph("es-storytelling-label", "Storytelling",
+           ["ev-storytelling"], bold=True),
         ": You can ",
         ph("es-narrative", "build a compelling narrative and communicate clearly",
-           ["ev-storytelling", "ev-speaking"]),
-        " – rooted in a desire to ",
-        ph("es-change-behaviors", "change mind, hearts and behaviors",
-           ["ev-psych", "ev-change"])
+           ["ev-storytelling", "ev-speaking", "ev-strategic-writing"]),
+        " \u2013 ",
+        ph("es-change-behaviors", "rooted in a desire to change mind, hearts and behaviors",
+           ["ev-psych", "ev-change", "ev-coaching"])
       ]},
       {"type": "li", "segments": [
-        {"b": "Conduct Research and Analysis"},
+        ph("es-research-label", "Conduct Research and Analysis",
+           ["ev-research", "ev-research-tools"], bold=True),
         ": You can ",
-        ph("es-qual-quant", "design and conduct qualitative and quantitative research",
-           ["ev-research", "ev-research-tools"]),
-        ", ",
-        ph("es-concept-eval", "concept evaluations",
-           ["ev-testing"]),
-        ", and competitive analyses – ",
-        ph("es-trends", "identifying trends, opportunities, and potential threats",
-           ["ev-insights", "ev-early-risk"]),
-        " to ",
-        ph("es-future-cx-vision", "inform the future state CX vision",
-           ["ev-present-future"]),
+        ph("es-qual-quant", "design and conduct qualitative and quantitative research, concept evaluations, and competitive analyses",
+           ["ev-research", "ev-research-tools", "ev-testing", "ev-insights"]),
+        " \u2013 ",
+        ph("es-trends", "identifying trends, opportunities, and potential threats to inform the future state CX vision",
+           ["ev-insights", "ev-early-risk", "ev-present-future"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Psychology"},
+        ph("es-psych-label", "Psychology",
+           ["ev-psych"], bold=True),
         ": You have a ",
-        ph("es-human-behavior", "deep understanding of human needs and behavior",
-           ["ev-psych", "ev-coaching"]),
-        " (e.g. thoughts, expectations, motivations, perceptions, beliefs, emotions, etc.) to ",
+        ph("es-human-behavior", "deep understanding of human needs and behavior (e.g. thoughts, expectations, motivations, perceptions, beliefs, emotions, etc.)",
+           ["ev-psych", "ev-coaching", "ev-research"]),
+        " to ",
         ph("es-desirability", "influence desirability, adoption, and culture",
            ["ev-adoption", "ev-change"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "AI and Data Ethics"},
+        ph("es-ethics-label", "AI and Data Ethics",
+           ["ev-responsible-ai"], bold=True),
         ": You ",
         ph("es-ai-ethics", "leverage AI tools while maintaining quality and ethical standards",
            ["ev-responsible-ai", "ev-ai-reliability"]),
-        ", understanding key considerations such as bias, transparency, and ",
-        ph("es-user-trust", "user trust in AI-enabled experiences",
-           ["ev-inherited", "ev-adoption"]),
+        ", ",
+        ph("es-user-trust", "understanding key considerations such as bias, transparency, and user trust in AI-enabled experiences",
+           ["ev-responsible-ai", "ev-inherited", "ev-adoption", "ev-ai-reliability"]),
         "."
       ]},
 
-      {"type": "h2", "text": "What you’ll need"},
+      {"type": "h2", "text": "What you\u2019ll need:"},
       {"type": "li", "segments": [
         ph("es-seven-years", "7+ years in progressive, CX strategy focused consulting role",
            ["ev-service-design", "ev-13yrs"]),
-        "; with ",
-        ph("es-sales-delivery", "a blend of sales and delivery experience",
+        "; ",
+        ph("es-sales-delivery", "with a blend of sales and delivery experience preferred",
            ["ev-biz-dev", "ev-client-delivery"]),
-        " preferred, bringing ",
-        ph("es-cross-industry", "cross-industry perspectives and outside-in thinking/best practices",
-           ["ev-wide-industry", "ev-rapid-domain"]),
+        ", ",
+        ph("es-cross-industry", "bringing cross-industry perspectives and outside-in thinking/best practices",
+           ["ev-wide-industry", "ev-rapid-domain", "ev-inherited"]),
         "."
       ]},
       {"type": "li", "segments": [
@@ -308,9 +304,8 @@ def strategist_prose():
         "."
       ]},
       {"type": "li", "segments": [
-        ph("es-ai-exposure", "Exposure to AI-enabled tools or solutions (e.g., generative AI tools, analytics platforms, or automation technologies) and their application in experience design",
-           ["ev-ai-tool-eval", "ev-ai-agents", "ev-ai-training", "pf-prompt"]),
-        " is a plus"
+        ph("es-ai-exposure", "Exposure to AI-enabled tools or solutions (e.g., generative AI tools, analytics platforms, or automation technologies) and their application in experience design is a plus",
+           ["ev-ai-tool-eval", "ev-ai-agents", "ev-ai-training", "pf-prompt"])
       ]},
       {"type": "li", "segments": [
         ph("es-travel", "Ability to travel up to 30% as business requires",
@@ -325,9 +320,9 @@ def designer_prose():
       {"type": "h2", "text": "The Role"},
       {"type": "p", "segments": [
         "An Experience Designer ",
-        ph("ed-crafts", "crafts immersive and engaging experiences that connect people with environments, events, and interactions",
-           ["ev-experience-design", "ev-live-events"]),
-        ", focusing on how these experiences feel and unfold over time. This role involves ",
+        ph("ed-crafts", "crafts immersive and engaging experiences that connect people with environments, events, and interactions, focusing on how these experiences feel and unfold over time",
+           ["ev-experience-design", "ev-live-events", "ev-journey-mapping"]),
+        ". This role involves ",
         ph("ed-needs-emotions", "understanding the needs and emotions of participants through research and testing",
            ["ev-research", "ev-testing", "ev-psych"]),
         " and ",
@@ -336,27 +331,30 @@ def designer_prose():
         ". By ",
         ph("ed-sensory", "considering the emotional, social, and sensory aspects of an experience",
            ["ev-psych", "ev-live-events"]),
-        ", Experience Designers aim to create memorable and impactful moments that leave lasting impressions."
+        ", Experience Designers aim to ",
+        ph("ed-memorable", "create memorable and impactful moments that leave lasting impressions",
+           ["ev-experience-design", "ev-live-events", "ev-prototyping"]),
+        "."
       ]},
       {"type": "p", "segments": [
         "As an Experience Designer at Kyndryl Vital you will ",
-        ph("ed-lead-initiatives", "lead design initiatives across a variety of projects",
-           ["ev-concurrent-pm", "ev-workstreams"]),
-        ", ensuring that solutions are innovative, user-friendly, and aligned with client objectives. You will ",
+        ph("ed-lead-initiatives", "lead design initiatives across a variety of projects, ensuring that solutions are innovative, user-friendly, and aligned with client objectives",
+           ["ev-concurrent-pm", "ev-workstreams", "ev-product-leadership", "ev-client-delivery"]),
+        ". You will ",
         ph("ed-client-relationships", "develop and maintain strong relationships with clients, acting as a trusted design advisor throughout the project lifecycle",
            ["ev-client-delivery", "ev-strategic-advising", "ev-engagement-ownership"]),
         ". You will ",
-        ph("ed-guide-teams", "guide design teams",
-           ["ev-design-standards", "ev-design-fluency", "ev-mentorship"]),
-        " in the creation of high-quality visual and interactive designs, ",
+        ph("ed-guide-teams", "guide design teams in the creation of high-quality visual and interactive designs",
+           ["ev-design-standards", "ev-design-fluency", "ev-mentorship", "ev-product-leadership"]),
+        ", ",
         ph("ed-business-user-needs", "ensuring the final product meets business and user needs",
            ["ev-product-leadership", "ev-translator"]),
         "."
       ]},
       {"type": "p", "segments": [
-        ph("ed-technical-feasibility", "Partnering with technical teams, you will balance creative ideas with technical feasibility",
-           ["ev-translator", "ev-agile"]),
-        ", ensuring designs are practical and scalable. You will ",
+        ph("ed-technical-feasibility", "Partnering with technical teams, you will balance creative ideas with technical feasibility, ensuring designs are practical and scalable",
+           ["ev-translator", "ev-agile", "ev-tech-stack"]),
+        ". You will ",
         ph("ed-own-process", "take ownership of the design process, from discovery and ideation to prototyping and user testing",
            ["ev-research", "ev-prototyping", "ev-testing"]),
         ", ensuring ",
@@ -374,15 +372,15 @@ def designer_prose():
         "."
       ]},
       {"type": "p", "segments": [
-        "You’ll ",
+        "You\u2019ll ",
         ph("ed-advise-ai", "advise clients and teams on the strategic use of AI in design",
-           ["ev-agentic-ops", "ev-ai-product"]),
+           ["ev-agentic-ops", "ev-ai-product", "ev-strategic-advising"]),
         ", ",
         ph("ed-balance-ethics", "balancing innovation with usability and ethics",
            ["ev-responsible-ai", "ev-ai-reliability"]),
         ", and ",
         ph("ed-experimentation-culture", "foster a culture of experimentation with AI while ensuring human agency remains central",
-           ["ev-adoption", "ev-prototyping"]),
+           ["ev-adoption", "ev-prototyping", "ev-responsible-ai"]),
         ". You will ",
         ph("ed-share-knowledge", "actively share your knowledge of AI in design with others as part of your leadership, empowering your team to grow their proficiency",
            ["ev-ai-training", "ev-mentorship", "ev-curriculum", "pf-genai-playbook"]),
@@ -394,56 +392,64 @@ def designer_prose():
 
       {"type": "h2", "text": "Required Technical and Professional Expertise"},
       {"type": "li", "segments": [
-        {"b": "Human-Centered Design"},
+        ph("ed-hcd-label", "Human-Centered Design",
+           ["ev-service-design", "ev-ma"], bold=True),
         ": You have a ",
         ph("ed-hcd", "deep understanding of human-centered design methods and mindset",
            ["ev-service-design", "ev-ma", "ev-design-fluency"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Co-Creation"},
+        ph("ed-cocreation-label", "Co-Creation",
+           ["ev-facilitation"], bold=True),
         ": You excel at ",
         ph("ed-cocreation", "aligning stakeholders through workshops and collaborative sessions",
            ["ev-facilitation", "ev-xfn"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Storytelling"},
+        ph("ed-storytelling-label", "Storytelling",
+           ["ev-storytelling"], bold=True),
         ": You can ",
         ph("ed-storytelling", "communicate clearly and compellingly",
-           ["ev-storytelling", "ev-speaking"]),
+           ["ev-storytelling", "ev-speaking", "ev-strategic-writing"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "User Research"},
+        ph("ed-research-label", "User Research",
+           ["ev-research"], bold=True),
         ": You can ",
         ph("ed-user-research", "design and conduct generative and evaluative user research",
            ["ev-research", "ev-research-tools", "ev-testing"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Prototyping"},
+        ph("ed-prototyping-label", "Prototyping",
+           ["ev-prototyping"], bold=True),
         ": You can ",
         ph("ed-prototyping", "create context-appropriate, low-to-high fidelity prototypes",
            ["ev-prototyping"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Visual Communication"},
+        ph("ed-visual-label", "Visual Communication",
+           ["ev-ia", "ev-systems-mapping"], bold=True),
         ": You have ",
         ph("ed-info-design", "expertise in information design",
            ["ev-ia", "ev-systems-mapping", "pf-eraf"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "AI and Data Ethics"},
+        ph("ed-ethics-label", "AI and Data Ethics",
+           ["ev-responsible-ai"], bold=True),
         ": You ",
         ph("ed-ai-ethics", "leverage AI tools while maintaining quality and ethical standards",
            ["ev-responsible-ai", "ev-ai-reliability"]),
         "."
       ]},
       {"type": "li", "segments": [
-        {"b": "Importance Travel is Required"},
+        ph("ed-travel-label", "Importance Travel is Required",
+           ["ev-travel-40"], bold=True),
         " ",
         ph("ed-travel", "Up to 40% or two days a week",
            ["ev-travel-40"])
@@ -477,7 +483,10 @@ def designer_prose():
         "/ML background"
       ]},
       {"type": "li", "segments": [
-        "You may specialize more deeply in:"
+        "You may ",
+        ph("ed-specialize", "specialize more deeply in",
+           ["ev-service-design", "ev-experience-design", "pf-full"]),
+        ":"
       ]},
       {"type": "li2", "segments": [
         ph("ed-service-design", "Service Design",
@@ -498,7 +507,7 @@ def designer_prose():
 
       {"type": "h2", "text": "Required Education"},
       {"type": "p", "segments": [
-        ph("ed-bachelors", "Bachelor’s Degree or equivalent portfolio",
+        ph("ed-bachelors", "Bachelor\u2019s Degree or equivalent portfolio",
            ["ev-ma", "pf-full"])
       ]},
 

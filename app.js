@@ -220,7 +220,9 @@
     // across lines like normal prose; buttons are atomic boxes and
     // break the text flow on narrow screens.
     var btn = document.createElement("span");
-    btn.className = "phrase";
+    // phrase.bold carries the employer's own bold lead-in, so a bold label
+    // can be underlined without losing its formatting
+    btn.className = phrase.bold ? "phrase jd-strong" : "phrase";
     btn.id = "phrase-" + phrase.id;
     btn.setAttribute("role", "button");
     btn.tabIndex = 0;

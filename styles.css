@@ -260,6 +260,10 @@ a { color: var(--k-red-dark); }
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
+/* an underlined phrase that is also the employer's bold lead-in: .phrase sets
+   `font: inherit`, which would otherwise strip the weight back off */
+.phrase.jd-strong { font-weight: 700; color: var(--k-ink); }
+
 .phrase:hover {
   background: var(--hl-bg-hover);
   text-decoration-color: var(--hl-line-on);

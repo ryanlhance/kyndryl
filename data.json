@@ -30,37 +30,34 @@
             "As a Senior Experience Strategist in Kyndryl Vital, you will ",
             {
               "id": "es-gtm",
-              "text": "shape the go‑to‑market strategy",
+              "text": "shape the go‑to‑market strategy and create high‑impact pre‑sales content that fuels Customer Experience (CX) pipeline growth",
               "evidence": [
                 "ev-gtm",
-                "ev-biz-model"
-              ]
-            },
-            " and ",
-            {
-              "id": "es-presales",
-              "text": "create high‑impact pre‑sales content",
-              "evidence": [
                 "ev-biz-dev",
-                "ev-storytelling"
+                "ev-storytelling",
+                "ev-new-revenue"
               ]
             },
-            " that fuels Customer Experience (CX) pipeline growth. You will translate market needs and human‑centered approaches into ",
+            ". You will ",
             {
               "id": "es-offerings",
-              "text": "compelling offerings, narratives, and solution frameworks",
+              "text": "translate market needs and human‑centered approaches into compelling offerings, narratives, and solution frameworks",
               "evidence": [
+                "ev-research",
                 "ev-gtm",
                 "ev-decision-frameworks",
                 "ev-strategic-writing"
               ]
             },
-            " that empower sellers, differentiate Kyndryl in the market, and ",
+            " that ",
             {
               "id": "es-win-deals",
-              "text": "win deals",
+              "text": "empower sellers, differentiate Kyndryl in the market, and win deals",
               "evidence": [
-                "ev-biz-dev"
+                "ev-biz-dev",
+                "ev-playbooks",
+                "ev-exec-alignment",
+                "ev-gtm"
               ]
             },
             ". This role blends ",
@@ -76,18 +73,11 @@
             " to ",
             {
               "id": "es-buying",
-              "text": "influence buying decisions",
+              "text": "influence buying decisions and accelerate revenue",
               "evidence": [
                 "ev-exec-alignment",
+                "ev-new-revenue",
                 "ev-decision-frameworks"
-              ]
-            },
-            " and ",
-            {
-              "id": "es-revenue",
-              "text": "accelerate revenue",
-              "evidence": [
-                "ev-new-revenue"
               ]
             },
             "."
@@ -139,12 +129,14 @@
             ". You ",
             {
               "id": "es-collaborative",
-              "text": "thrive in collaborative, cross-functional environments",
+              "text": "thrive in collaborative, cross-functional environments and are energized by helping teams win in the CX market",
               "evidence": [
-                "ev-xfn"
+                "ev-xfn",
+                "ev-facilitation",
+                "ev-biz-dev"
               ]
             },
-            " and are energized by helping teams win in the CX market. You ",
+            ". You ",
             {
               "id": "es-experimentation",
               "text": "embrace experimentation, human-centered thinking, and continuous learning",
@@ -165,42 +157,24 @@
           "type": "li",
           "segments": [
             {
-              "b": "Create Compelling Pre Sales Content"
+              "id": "es-presales-label",
+              "text": "Create Compelling Pre Sales Content",
+              "evidence": [
+                "ev-biz-dev",
+                "ev-gtm",
+                "ev-storytelling"
+              ],
+              "bold": true
             },
             ": ",
             {
-              "id": "es-reusable-assets",
-              "text": "Develop resuable assets",
+              "id": "es-presales",
+              "text": "Develop resuable assets, pitch materials, value propositions, compelling POVs, storytelling frameworks, and executive-ready narratives that clearly articulate customer outcomes and business impact",
               "evidence": [
                 "ev-playbooks",
-                "ev-decision-frameworks"
-              ]
-            },
-            ", ",
-            {
-              "id": "es-pitch-materials",
-              "text": "pitch materials, value propositions",
-              "evidence": [
-                "ev-gtm",
-                "ev-speaking"
-              ]
-            },
-            ", compelling POVs, ",
-            {
-              "id": "es-narratives",
-              "text": "storytelling frameworks, and executive-ready narratives",
-              "evidence": [
-                "ev-storytelling",
-                "ev-strategic-writing"
-              ]
-            },
-            " that clearly articulate ",
-            {
-              "id": "es-outcomes-impact",
-              "text": "customer outcomes and business impact",
-              "evidence": [
-                "ev-metrics",
-                "ev-translator"
+                "ev-strategic-writing",
+                "ev-speaking",
+                "ev-metrics"
               ]
             },
             "."
@@ -210,7 +184,14 @@
           "type": "li",
           "segments": [
             {
-              "b": "Business + Tech + Experience"
+              "id": "es-bte-label",
+              "text": "Business + Tech + Experience",
+              "evidence": [
+                "ev-translator",
+                "ev-tech-stack",
+                "ev-design-fluency"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -248,26 +229,23 @@
           "type": "li",
           "segments": [
             {
-              "b": "Business Acumen"
+              "id": "es-acumen-label",
+              "text": "Business Acumen",
+              "evidence": [
+                "ev-ma",
+                "ev-biz-model"
+              ],
+              "bold": true
             },
             ": You ",
             {
               "id": "es-business-strategy",
-              "text": "understand business strategy and can connect it to experience",
+              "text": "understand business strategy and can connect it to experience and help others understand the value of experience-led outcomes",
               "evidence": [
                 "ev-ma",
                 "ev-design-fluency",
-                "ev-biz-model"
-              ]
-            },
-            " and ",
-            {
-              "id": "es-experience-led",
-              "text": "help others understand the value of experience-led outcomes",
-              "evidence": [
                 "ev-exec-alignment",
-                "ev-facilitation",
-                "ev-design-standards"
+                "ev-facilitation"
               ]
             }
           ]
@@ -276,7 +254,13 @@
           "type": "li",
           "segments": [
             {
-              "b": "Experience Optimization"
+              "id": "es-optimization-label",
+              "text": "Experience Optimization",
+              "evidence": [
+                "ev-process-optimization",
+                "ev-present-future"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -298,14 +282,30 @@
                 "ev-blueprinting"
               ]
             },
-            ", including leveraging AI, automation, and self-service capabilities to improve usability and efficiency."
+            ", including ",
+            {
+              "id": "es-usability-efficiency",
+              "text": "leveraging AI, automation, and self-service capabilities to improve usability and efficiency",
+              "evidence": [
+                "ev-agentic-ops",
+                "ev-process-optimization",
+                "ev-testing"
+              ]
+            },
+            "."
           ]
         },
         {
           "type": "li",
           "segments": [
             {
-              "b": "AI Use Case Contribution"
+              "id": "es-aiusecase-label",
+              "text": "AI Use Case Contribution",
+              "evidence": [
+                "ev-ai-product",
+                "ev-ai-agents"
+              ],
+              "bold": true
             },
             ": You contribute to ",
             {
@@ -317,13 +317,14 @@
                 "pf-ai-roadmap"
               ]
             },
-            ", supporting senior team members in ",
+            ", ",
             {
               "id": "es-feasibility",
-              "text": "evaluating feasibility and value",
+              "text": "supporting senior team members in evaluating feasibility and value",
               "evidence": [
                 "ev-ai-tool-eval",
-                "ev-metrics"
+                "ev-metrics",
+                "ev-exec-alignment"
               ]
             },
             "."
@@ -333,9 +334,25 @@
           "type": "li",
           "segments": [
             {
-              "b": "Design and deliver solutions"
+              "id": "es-deliver-label",
+              "text": "Design and deliver solutions",
+              "evidence": [
+                "ev-service-design",
+                "ev-client-delivery"
+              ],
+              "bold": true
             },
-            ": Create strategic deliverables such as ",
+            ": ",
+            {
+              "id": "es-strategic-deliverables",
+              "text": "Create strategic deliverables",
+              "evidence": [
+                "ev-blueprinting",
+                "ev-systems-mapping",
+                "ev-strategic-writing"
+              ]
+            },
+            " such as ",
             {
               "id": "es-experience-maps",
               "text": "experience maps",
@@ -379,7 +396,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Co-Creation"
+              "id": "es-cocreation-label",
+              "text": "Co-Creation",
+              "evidence": [
+                "ev-facilitation"
+              ],
+              "bold": true
             },
             ": You excel at ",
             {
@@ -396,7 +418,8 @@
               "text": "facilitated brainstorming / future-state innovation sessions and use case development",
               "evidence": [
                 "ev-present-future",
-                "ev-decision-frameworks"
+                "ev-decision-frameworks",
+                "ev-facilitation"
               ]
             },
             " that ",
@@ -415,7 +438,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Storytelling"
+              "id": "es-storytelling-label",
+              "text": "Storytelling",
+              "evidence": [
+                "ev-storytelling"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -423,16 +451,18 @@
               "text": "build a compelling narrative and communicate clearly",
               "evidence": [
                 "ev-storytelling",
-                "ev-speaking"
+                "ev-speaking",
+                "ev-strategic-writing"
               ]
             },
-            " – rooted in a desire to ",
+            " – ",
             {
               "id": "es-change-behaviors",
-              "text": "change mind, hearts and behaviors",
+              "text": "rooted in a desire to change mind, hearts and behaviors",
               "evidence": [
                 "ev-psych",
-                "ev-change"
+                "ev-change",
+                "ev-coaching"
               ]
             }
           ]
@@ -441,39 +471,32 @@
           "type": "li",
           "segments": [
             {
-              "b": "Conduct Research and Analysis"
+              "id": "es-research-label",
+              "text": "Conduct Research and Analysis",
+              "evidence": [
+                "ev-research",
+                "ev-research-tools"
+              ],
+              "bold": true
             },
             ": You can ",
             {
               "id": "es-qual-quant",
-              "text": "design and conduct qualitative and quantitative research",
+              "text": "design and conduct qualitative and quantitative research, concept evaluations, and competitive analyses",
               "evidence": [
                 "ev-research",
-                "ev-research-tools"
+                "ev-research-tools",
+                "ev-testing",
+                "ev-insights"
               ]
             },
-            ", ",
-            {
-              "id": "es-concept-eval",
-              "text": "concept evaluations",
-              "evidence": [
-                "ev-testing"
-              ]
-            },
-            ", and competitive analyses – ",
+            " – ",
             {
               "id": "es-trends",
-              "text": "identifying trends, opportunities, and potential threats",
+              "text": "identifying trends, opportunities, and potential threats to inform the future state CX vision",
               "evidence": [
                 "ev-insights",
-                "ev-early-risk"
-              ]
-            },
-            " to ",
-            {
-              "id": "es-future-cx-vision",
-              "text": "inform the future state CX vision",
-              "evidence": [
+                "ev-early-risk",
                 "ev-present-future"
               ]
             },
@@ -484,18 +507,24 @@
           "type": "li",
           "segments": [
             {
-              "b": "Psychology"
+              "id": "es-psych-label",
+              "text": "Psychology",
+              "evidence": [
+                "ev-psych"
+              ],
+              "bold": true
             },
             ": You have a ",
             {
               "id": "es-human-behavior",
-              "text": "deep understanding of human needs and behavior",
+              "text": "deep understanding of human needs and behavior (e.g. thoughts, expectations, motivations, perceptions, beliefs, emotions, etc.)",
               "evidence": [
                 "ev-psych",
-                "ev-coaching"
+                "ev-coaching",
+                "ev-research"
               ]
             },
-            " (e.g. thoughts, expectations, motivations, perceptions, beliefs, emotions, etc.) to ",
+            " to ",
             {
               "id": "es-desirability",
               "text": "influence desirability, adoption, and culture",
@@ -511,7 +540,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "AI and Data Ethics"
+              "id": "es-ethics-label",
+              "text": "AI and Data Ethics",
+              "evidence": [
+                "ev-responsible-ai"
+              ],
+              "bold": true
             },
             ": You ",
             {
@@ -522,13 +556,15 @@
                 "ev-ai-reliability"
               ]
             },
-            ", understanding key considerations such as bias, transparency, and ",
+            ", ",
             {
               "id": "es-user-trust",
-              "text": "user trust in AI-enabled experiences",
+              "text": "understanding key considerations such as bias, transparency, and user trust in AI-enabled experiences",
               "evidence": [
+                "ev-responsible-ai",
                 "ev-inherited",
-                "ev-adoption"
+                "ev-adoption",
+                "ev-ai-reliability"
               ]
             },
             "."
@@ -536,7 +572,7 @@
         },
         {
           "type": "h2",
-          "text": "What you’ll need"
+          "text": "What you’ll need:"
         },
         {
           "type": "li",
@@ -549,22 +585,23 @@
                 "ev-13yrs"
               ]
             },
-            "; with ",
+            "; ",
             {
               "id": "es-sales-delivery",
-              "text": "a blend of sales and delivery experience",
+              "text": "with a blend of sales and delivery experience preferred",
               "evidence": [
                 "ev-biz-dev",
                 "ev-client-delivery"
               ]
             },
-            " preferred, bringing ",
+            ", ",
             {
               "id": "es-cross-industry",
-              "text": "cross-industry perspectives and outside-in thinking/best practices",
+              "text": "bringing cross-industry perspectives and outside-in thinking/best practices",
               "evidence": [
                 "ev-wide-industry",
-                "ev-rapid-domain"
+                "ev-rapid-domain",
+                "ev-inherited"
               ]
             },
             "."
@@ -589,15 +626,14 @@
           "segments": [
             {
               "id": "es-ai-exposure",
-              "text": "Exposure to AI-enabled tools or solutions (e.g., generative AI tools, analytics platforms, or automation technologies) and their application in experience design",
+              "text": "Exposure to AI-enabled tools or solutions (e.g., generative AI tools, analytics platforms, or automation technologies) and their application in experience design is a plus",
               "evidence": [
                 "ev-ai-tool-eval",
                 "ev-ai-agents",
                 "ev-ai-training",
                 "pf-prompt"
               ]
-            },
-            " is a plus"
+            }
           ]
         },
         {
@@ -639,13 +675,14 @@
             "An Experience Designer ",
             {
               "id": "ed-crafts",
-              "text": "crafts immersive and engaging experiences that connect people with environments, events, and interactions",
+              "text": "crafts immersive and engaging experiences that connect people with environments, events, and interactions, focusing on how these experiences feel and unfold over time",
               "evidence": [
                 "ev-experience-design",
-                "ev-live-events"
+                "ev-live-events",
+                "ev-journey-mapping"
               ]
             },
-            ", focusing on how these experiences feel and unfold over time. This role involves ",
+            ". This role involves ",
             {
               "id": "ed-needs-emotions",
               "text": "understanding the needs and emotions of participants through research and testing",
@@ -673,7 +710,17 @@
                 "ev-live-events"
               ]
             },
-            ", Experience Designers aim to create memorable and impactful moments that leave lasting impressions."
+            ", Experience Designers aim to ",
+            {
+              "id": "ed-memorable",
+              "text": "create memorable and impactful moments that leave lasting impressions",
+              "evidence": [
+                "ev-experience-design",
+                "ev-live-events",
+                "ev-prototyping"
+              ]
+            },
+            "."
           ]
         },
         {
@@ -682,13 +729,15 @@
             "As an Experience Designer at Kyndryl Vital you will ",
             {
               "id": "ed-lead-initiatives",
-              "text": "lead design initiatives across a variety of projects",
+              "text": "lead design initiatives across a variety of projects, ensuring that solutions are innovative, user-friendly, and aligned with client objectives",
               "evidence": [
                 "ev-concurrent-pm",
-                "ev-workstreams"
+                "ev-workstreams",
+                "ev-product-leadership",
+                "ev-client-delivery"
               ]
             },
-            ", ensuring that solutions are innovative, user-friendly, and aligned with client objectives. You will ",
+            ". You will ",
             {
               "id": "ed-client-relationships",
               "text": "develop and maintain strong relationships with clients, acting as a trusted design advisor throughout the project lifecycle",
@@ -701,14 +750,15 @@
             ". You will ",
             {
               "id": "ed-guide-teams",
-              "text": "guide design teams",
+              "text": "guide design teams in the creation of high-quality visual and interactive designs",
               "evidence": [
                 "ev-design-standards",
                 "ev-design-fluency",
-                "ev-mentorship"
+                "ev-mentorship",
+                "ev-product-leadership"
               ]
             },
-            " in the creation of high-quality visual and interactive designs, ",
+            ", ",
             {
               "id": "ed-business-user-needs",
               "text": "ensuring the final product meets business and user needs",
@@ -725,13 +775,14 @@
           "segments": [
             {
               "id": "ed-technical-feasibility",
-              "text": "Partnering with technical teams, you will balance creative ideas with technical feasibility",
+              "text": "Partnering with technical teams, you will balance creative ideas with technical feasibility, ensuring designs are practical and scalable",
               "evidence": [
                 "ev-translator",
-                "ev-agile"
+                "ev-agile",
+                "ev-tech-stack"
               ]
             },
-            ", ensuring designs are practical and scalable. You will ",
+            ". You will ",
             {
               "id": "ed-own-process",
               "text": "take ownership of the design process, from discovery and ideation to prototyping and user testing",
@@ -787,7 +838,8 @@
               "text": "advise clients and teams on the strategic use of AI in design",
               "evidence": [
                 "ev-agentic-ops",
-                "ev-ai-product"
+                "ev-ai-product",
+                "ev-strategic-advising"
               ]
             },
             ", ",
@@ -805,7 +857,8 @@
               "text": "foster a culture of experimentation with AI while ensuring human agency remains central",
               "evidence": [
                 "ev-adoption",
-                "ev-prototyping"
+                "ev-prototyping",
+                "ev-responsible-ai"
               ]
             },
             ". You will ",
@@ -838,7 +891,13 @@
           "type": "li",
           "segments": [
             {
-              "b": "Human-Centered Design"
+              "id": "ed-hcd-label",
+              "text": "Human-Centered Design",
+              "evidence": [
+                "ev-service-design",
+                "ev-ma"
+              ],
+              "bold": true
             },
             ": You have a ",
             {
@@ -857,7 +916,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Co-Creation"
+              "id": "ed-cocreation-label",
+              "text": "Co-Creation",
+              "evidence": [
+                "ev-facilitation"
+              ],
+              "bold": true
             },
             ": You excel at ",
             {
@@ -875,7 +939,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Storytelling"
+              "id": "ed-storytelling-label",
+              "text": "Storytelling",
+              "evidence": [
+                "ev-storytelling"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -883,7 +952,8 @@
               "text": "communicate clearly and compellingly",
               "evidence": [
                 "ev-storytelling",
-                "ev-speaking"
+                "ev-speaking",
+                "ev-strategic-writing"
               ]
             },
             "."
@@ -893,7 +963,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "User Research"
+              "id": "ed-research-label",
+              "text": "User Research",
+              "evidence": [
+                "ev-research"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -912,7 +987,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Prototyping"
+              "id": "ed-prototyping-label",
+              "text": "Prototyping",
+              "evidence": [
+                "ev-prototyping"
+              ],
+              "bold": true
             },
             ": You can ",
             {
@@ -929,7 +1009,13 @@
           "type": "li",
           "segments": [
             {
-              "b": "Visual Communication"
+              "id": "ed-visual-label",
+              "text": "Visual Communication",
+              "evidence": [
+                "ev-ia",
+                "ev-systems-mapping"
+              ],
+              "bold": true
             },
             ": You have ",
             {
@@ -948,7 +1034,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "AI and Data Ethics"
+              "id": "ed-ethics-label",
+              "text": "AI and Data Ethics",
+              "evidence": [
+                "ev-responsible-ai"
+              ],
+              "bold": true
             },
             ": You ",
             {
@@ -966,7 +1057,12 @@
           "type": "li",
           "segments": [
             {
-              "b": "Importance Travel is Required"
+              "id": "ed-travel-label",
+              "text": "Importance Travel is Required",
+              "evidence": [
+                "ev-travel-40"
+              ],
+              "bold": true
             },
             " ",
             {
@@ -1071,7 +1167,17 @@
         {
           "type": "li",
           "segments": [
-            "You may specialize more deeply in:"
+            "You may ",
+            {
+              "id": "ed-specialize",
+              "text": "specialize more deeply in",
+              "evidence": [
+                "ev-service-design",
+                "ev-experience-design",
+                "pf-full"
+              ]
+            },
+            ":"
           ]
         },
         {
