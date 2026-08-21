@@ -200,7 +200,8 @@
               "evidence": [
                 "ev-translator",
                 "ev-tech-stack",
-                "ev-experience-design"
+                "ev-experience-design",
+                "ev-business-design-thinking"
               ]
             },
             ", ",
@@ -219,7 +220,8 @@
               "evidence": [
                 "ev-ai-product",
                 "ev-ai-agents",
-                "pf-cdp"
+                "pf-cdp",
+                "ev-ai-retrieval"
               ]
             },
             "."
@@ -245,7 +247,8 @@
                 "ev-ma",
                 "ev-design-fluency",
                 "ev-exec-alignment",
-                "ev-facilitation"
+                "ev-facilitation",
+                "ev-business-design-thinking"
               ]
             }
           ]
@@ -279,7 +282,8 @@
               "evidence": [
                 "ev-agentic-ops",
                 "ev-pm-system",
-                "ev-blueprinting"
+                "ev-blueprinting",
+                "ev-knowledge-arch-rows"
               ]
             },
             ", including ",
@@ -358,7 +362,8 @@
               "text": "experience maps",
               "evidence": [
                 "ev-systems-mapping",
-                "pf-eraf"
+                "pf-eraf",
+                "ev-journey-ai"
               ]
             },
             ", ",
@@ -367,7 +372,8 @@
               "text": "user journeys",
               "evidence": [
                 "ev-journey-mapping",
-                "pf-journey"
+                "pf-journey",
+                "ev-journey-ai"
               ]
             },
             ", and ",
@@ -377,7 +383,8 @@
               "evidence": [
                 "ev-blueprinting",
                 "pf-global-blueprint",
-                "pf-local-blueprint"
+                "pf-local-blueprint",
+                "ev-knowledge-arch-rows"
               ]
             },
             " to ",
@@ -833,7 +840,8 @@
               "evidence": [
                 "ev-design-standards",
                 "ev-adoption",
-                "ev-responsible-ai"
+                "ev-responsible-ai",
+                "ev-knowledge-arch-rows"
               ]
             },
             "."
@@ -1232,7 +1240,8 @@
               "text": "Information Architecture",
               "evidence": [
                 "ev-ia",
-                "pf-eraf"
+                "pf-eraf",
+                "ev-ai-retrieval"
               ]
             }
           ]
@@ -1336,6 +1345,11 @@
       "text": "Built service blueprints at every scale from a 450-point blueprint for a startup's information architecture and executive decision making to a 20,000+ point global, enterprise level blueprint to identify service, product, technology, and operational gaps and opportunities at Bayer.",
       "link": "https://www.hance.work/Local-Enterprise-Level-Service-Blueprint-74f9ecfa9f4a4873be1b909a7f5e37d8?pvs=25"
     },
+    "ev-knowledge-arch-rows": {
+      "title": "Knowledge Architecture Rows",
+      "years": "3+ years experience",
+      "text": "In designing for complexity with LLMs and RAG, service blueprints need a row most practitioners are not defining: knowledge architecture. For every interaction point where AI shows up, what knowledge needs to be accessible to it, and where does that knowledge come from? I add that layer to blueprints so the AI can show up as close to human as the customer needs it to in a journey, building trust instead of degrading it."
+    },
     "ev-present-future": {
       "title": "Present State vs Future State",
       "years": "10+ years experience",
@@ -1346,6 +1360,11 @@
       "years": "7+ years experience",
       "text": "I have mapped journeys across startups, national franchises, and the Fortune 500. At Bayer I facilitated a global journey mapping effort spanning North America, Europe, and Asia-Pacific, 2,250 journey points across 27 teams, that cut environmental toxin risk 70% and raised workplace safety 30% within two quarters. At Dryland, the customer and employee journeys inside our 450 point blueprint became the source for our playbooks, org design, and project management system. I led the migration of Bayer's global, enterprise level blueprint from Miro to TheyDo so the journeys could be managed more accurately and dynamically.",
       "link": "https://www.hance.work/Global-Journey-Mapping-Effort-228e643935ea43aab50ee95d8f56305f?pvs=25"
+    },
+    "ev-journey-ai": {
+      "title": "Journey Mapping with AI",
+      "years": "3+ years experience",
+      "text": "Service designers need to be able to build tool agnostic markdown systems and be able to articulate journeys instead of just map them. Interconnected files in this context allow a tool like Claude to traverse information rapidly and create journey maps and service blueprints as dynamic or focused as necessary for the intention of the stakeholders. In this way, a map becomes an output of the content rather than the only place the content lives. My strategy is to use each interaction point as one file, tagged with the personas, playbooks, technology, and other contexts it connects to, linking forward to the next decision points and back to the ones that lead there. Markdown outlives any single vendor, so the journey survives any migration and a visual map can be generated on demand."
     },
     "ev-systems-mapping": {
       "title": "Systems Mapping",
@@ -1442,6 +1461,11 @@
       "title": "Decision Frameworks",
       "years": "13+ years experience",
       "text": "I am a strategic framework and decision model library, and I use these tools to help teams uncover information, connect dots, and communicate clearly. If I don't have a tool perfect for helping a team make a decision, I design one in the moment. I've been building these tools myself and using them with teams professionally since working in the film industry, so I have a backlog of hundreds of models and frameworks going back 10+ years, not to mention the hundreds that I have collected from other great thought leaders."
+    },
+    "ev-business-design-thinking": {
+      "title": "Business is a Design Thinking Problem",
+      "years": "7+ years experience",
+      "text": "As a design strategist, I have discovered most problems are solved with changes to business models, not tools. Typically, business processes, organizational structures, and employee experience are where design thinking makes the biggest impact in unblocking organizations, though most organizations point their design teams towards digital problems. Clients come to me asking for the right software, system, or UI/UX work, yet when I conduct research, those are rarely the bottleneck. I apply design thinking to the business itself, and have learned to influence stakeholders and C-Suite leaders outside of IT infrastructure."
     },
     "ev-strategic-advising": {
       "title": "Strategic Advising",
@@ -1598,8 +1622,13 @@
     "ev-ai-product": {
       "title": "AI Product Strategy",
       "years": "3+ years experience",
-      "text": "Led product strategy on the build out and adoption of Bayer's internal LLM platform pre-AI-boom, impacting design and product decisions and leading user testing. That work continues today as the core of my consulting practice. I build agentic, tool agnostic knowledge systems for creative and operational teams, design the prompt, workflow, and rule configurations they run on, and treat retrieval quality and human authored context as the leverage priority.",
+      "text": "Led product strategy on the build out and adoption of Bayer's internal LLM platform pre-AI-boom, impacting design and product decisions and leading user testing. I partnered in developing the platform's use cases with its beta users, with one of those use cases later measuring 23.3% average time saved and 10.7 working days saved per worker per year in the relevant area in a peer-reviewed external study. That work continues today as the core of my consulting practice. I build agentic, tool agnostic knowledge systems for creative and operational teams, design the prompt, workflow, and rule configurations they run on, and treat retrieval quality and human authored context as the leverage priority.",
       "link": "https://www.hance.work/A-I-Product-Roadmap-d042f4d986e5441bbb80b5e5ea4bd018?pvs=25"
+    },
+    "ev-ai-retrieval": {
+      "title": "Designing for AI Retrieval",
+      "years": "3+ years experience",
+      "text": "In a post-LLM integrated world, design strategists need to be able to design the information architecture and retrieval directories that help LLMs find the right information and make decisions inside large knowledge bases. There are two types of decisions to design for: retrieval decisions and content decisions. Retrieval decisions are how the system finds something, and content decisions are what gets searched for and pulled for outputs. I build retrieval guides and decision-making architecture into the knowledge system I design for clients."
     },
     "ev-ai-reliability": {
       "title": "AI Reliability & Quality",

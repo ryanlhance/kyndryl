@@ -19,8 +19,10 @@ evidence = {
   "ev-travel-40": {"title": "Happy to Travel", "text": "Would love to. 40% on the road interests me."},
 
   "ev-blueprinting": {"title": "Service Blueprinting", "years": "7+ years experience", "text": "Built service blueprints at every scale from a 450-point blueprint for a startup's information architecture and executive decision making to a 20,000+ point global, enterprise level blueprint to identify service, product, technology, and operational gaps and opportunities at Bayer.", "link": "https://www.hance.work/Local-Enterprise-Level-Service-Blueprint-74f9ecfa9f4a4873be1b909a7f5e37d8?pvs=25"},
+  "ev-knowledge-arch-rows": {"title": "Knowledge Architecture Rows", "years": "3+ years experience", "text": "In designing for complexity with LLMs and RAG, service blueprints need a row most practitioners are not defining: knowledge architecture. For every interaction point where AI shows up, what knowledge needs to be accessible to it, and where does that knowledge come from? I add that layer to blueprints so the AI can show up as close to human as the customer needs it to in a journey, building trust instead of degrading it."},
   "ev-present-future": {"title": "Present State vs Future State", "years": "10+ years experience", "text": "I map the present state of an organization, business unit, or stakeholder journey to design the future state. The global blueprinting effort at Bayer existed to identify the present state of our tech stack and operational interactions and then make recommendations for future state: we delivered a present state map and a future state map. I did the same at Dryland Revival, mapping our current processes and then identifying new product and service opportunities for our customers and better ways of working for our teams."},
   "ev-journey-mapping": {"title": "Journey Mapping", "years": "7+ years experience", "text": "I have mapped journeys across startups, national franchises, and the Fortune 500. At Bayer I facilitated a global journey mapping effort spanning North America, Europe, and Asia-Pacific, 2,250 journey points across 27 teams, that cut environmental toxin risk 70% and raised workplace safety 30% within two quarters. At Dryland, the customer and employee journeys inside our 450 point blueprint became the source for our playbooks, org design, and project management system. I led the migration of Bayer's global, enterprise level blueprint from Miro to TheyDo so the journeys could be managed more accurately and dynamically.", "link": "https://www.hance.work/Global-Journey-Mapping-Effort-228e643935ea43aab50ee95d8f56305f?pvs=25"},
+  "ev-journey-ai": {"title": "Journey Mapping with AI", "years": "3+ years experience", "text": "Service designers need to be able to build tool agnostic markdown systems and be able to articulate journeys instead of just map them. Interconnected files in this context allow a tool like Claude to traverse information rapidly and create journey maps and service blueprints as dynamic or focused as necessary for the intention of the stakeholders. In this way, a map becomes an output of the content rather than the only place the content lives. My strategy is to use each interaction point as one file, tagged with the personas, playbooks, technology, and other contexts it connects to, linking forward to the next decision points and back to the ones that lead there. Markdown outlives any single vendor, so the journey survives any migration and a visual map can be generated on demand."},
   "ev-systems-mapping": {"title": "Systems Mapping", "years": "13+ years experience", "text": "I build maps that help teams see the bigger picture and communicate and make decisions more efficiently. At Dryland Revival, I built a map with 100+ interaction points across all five departments. I have built comparative org charts that let a nationwide franchise see its restructure clearly enough to reorganize without a single layoff, current and future state organizational maps for entire Fortune 500 divisions, and the visual maps of crew, cast, and equipment that ran thousands of production days across six years in the film industry."},
   "ev-ia": {"title": "Information Architecture", "years": "10+ years experience", "text": "I structure information so people, teams, and technology can equally increase efficiency with it. I have been designing the automations and information architecture of project management systems since working in the film industry, and recently developed enterprise-wide IA for PM systems at Dryland Revival. At Bayer, I designed the information architecture of the agentic persona service, and mapped the data source architecture of the global, enterprise level future state service blueprint and tech stack recommendations. Today I architect AI native, tool agnostic knowledge systems with project flow automations and documentation structures for both human and agent ease of retrieval."},
   "ev-systems-thinking": {"title": "Systems Thinking", "years": "13+ years experience", "text": "I live in a constant state of mapping systems in my head. It is what allowed me to excel at the rapid, leadership-level decision making of being an Assistant Director on set in the film industry and helps me see consequences of business decisions that most others don't. When I walk into a room, a team, or a company, I have the system mapped in my head immediately. The blueprints, frameworks, and playbooks I design are made to help others act with the level of empathy their stakeholders need."},
@@ -42,6 +44,7 @@ evidence = {
   "ev-gtm": {"title": "Go-to-Market & Offer Design", "years": "7+ years experience", "text": "Structured the offer and go-to-market strategy for seven intrapreneurial and entrepreneurial ventures: an internal agentic tool at Bayer, sustainable products at Delta Air Lines, an education as a service line with Campus Carriers, the business model for Dryland Revival, multiple successful leadership practices, my franchise consulting business. Formal training in business modeling and GTM strategy (M.A. program at SCAD), niche and offer design (Traffic & Funnels) and offers, leads, and business models (Acquisition.com). I take an opportunity from value proposition to packaging, and into a working product or service."},
   "ev-biz-model": {"title": "Business Model Design", "years": "7+ years experience", "text": "Designed business models, tech stacks, and service models across many engagements: agentic tools within Bayer, sustainable business models for Delta's obsolete beverage carts, a construction-science startup's operating model, a B2B2C education as a service for Campus Carriers, a hospitality franchise's multi-location tech roadmap, and five personal ventures grown to profitability."},
   "ev-decision-frameworks": {"title": "Decision Frameworks", "years": "13+ years experience", "text": "I am a strategic framework and decision model library, and I use these tools to help teams uncover information, connect dots, and communicate clearly. If I don't have a tool perfect for helping a team make a decision, I design one in the moment. I've been building these tools myself and using them with teams professionally since working in the film industry, so I have a backlog of hundreds of models and frameworks going back 10+ years, not to mention the hundreds that I have collected from other great thought leaders."},
+  "ev-business-design-thinking": {"title": "Business is a Design Thinking Problem", "years": "7+ years experience", "text": "As a design strategist, I have discovered most problems are solved with changes to business models, not tools. Typically, business processes, organizational structures, and employee experience are where design thinking makes the biggest impact in unblocking organizations, though most organizations point their design teams towards digital problems. Clients come to me asking for the right software, system, or UI/UX work, yet when I conduct research, those are rarely the bottleneck. I apply design thinking to the business itself, and have learned to influence stakeholders and C-Suite leaders outside of IT infrastructure."},
   "ev-strategic-advising": {"title": "Strategic Advising", "years": "13+ years experience", "text": "My strategic advising goes back to film and TV, where the producer's first job is advising the client on their own vision: what is actually possible within the timeline and budget, and what it will take to get there. Since then: primary client contact for Delta Air Lines leading a sustainability marketing effort, almost eight years of coaching leaders through my own practices, and advising for franchisees and franchisors today."},
   "ev-process-optimization": {"title": "Process Optimization", "years": "13+ years experience", "text": "My background in film means that the first half of my career required doing literally unbelievable things with scarce resources. Now, I reengineer systems to allow for the streamlining of resources that will exercise the greatest efficiency. I helped a university logistics operation restructure for a 60% resource reduction, built a startup playbook library that lifted efficiency 80% and removed the CEO from lower-level decisions, and developed operating cadences and management systems that kept teams aligned through rapid growth in both my entertainment industry days and my startup experiences."},
 
@@ -77,7 +80,8 @@ evidence = {
   "ev-agentic-ops": {"title": "Agentic Operations Design", "years": "3+ years experience", "text": "Currently transforming business operations through agentic experience design alongside human and AI skill development, increasing the efficiency and accuracy of leaders, teams, and individual contributors. I own transformation engagements from scoping and discovery through implementation and adoption, and build AI-native, tool-agnostic knowledge management systems for creative and operational teams, architected for both human and agent ease of retrieval."},
   "ev-responsible-ai": {"title": "Responsible AI", "years": "3+ years experience", "text": "I've been integrating AI into human systems since before commercial integrations existed — agentic personas validated by 20+ year subject-matter experts above 80% accuracy before teams were allowed to rely on them. I've also led stakeholder AI education from Indonesia to Brazil, and designed governance gates for agents to reduce failures and overstepping."},
   "ev-ai-tool-eval": {"title": "AI Tool Evaluation", "years": "4+ years experience", "text": "Regularly self train on unfamiliar enterprise software to the depth of evaluating vendor fit, proven at the Fortune 500 level and across startups. Drove a Fortune 500's Customer Data Platform vendor selection and gave strategic input on its internal LLM platform build. My goal is to identify the right tool for the right job and the right persona."},
-  "ev-ai-product": {"title": "AI Product Strategy", "years": "3+ years experience", "text": "Led product strategy on the build out and adoption of Bayer's internal LLM platform pre-AI-boom, impacting design and product decisions and leading user testing. That work continues today as the core of my consulting practice. I build agentic, tool agnostic knowledge systems for creative and operational teams, design the prompt, workflow, and rule configurations they run on, and treat retrieval quality and human authored context as the leverage priority.", "link": "https://www.hance.work/A-I-Product-Roadmap-d042f4d986e5441bbb80b5e5ea4bd018?pvs=25"},
+  "ev-ai-product": {"title": "AI Product Strategy", "years": "3+ years experience", "text": "Led product strategy on the build out and adoption of Bayer's internal LLM platform pre-AI-boom, impacting design and product decisions and leading user testing. I partnered in developing the platform's use cases with its beta users, with one of those use cases later measuring 23.3% average time saved and 10.7 working days saved per worker per year in the relevant area in a peer-reviewed external study. That work continues today as the core of my consulting practice. I build agentic, tool agnostic knowledge systems for creative and operational teams, design the prompt, workflow, and rule configurations they run on, and treat retrieval quality and human authored context as the leverage priority.", "link": "https://www.hance.work/A-I-Product-Roadmap-d042f4d986e5441bbb80b5e5ea4bd018?pvs=25"},
+  "ev-ai-retrieval": {"title": "Designing for AI Retrieval", "years": "3+ years experience", "text": "In a post-LLM integrated world, design strategists need to be able to design the information architecture and retrieval directories that help LLMs find the right information and make decisions inside large knowledge bases. There are two types of decisions to design for: retrieval decisions and content decisions. Retrieval decisions are how the system finds something, and content decisions are what gets searched for and pulled for outputs. I build retrieval guides and decision-making architecture into the knowledge system I design for clients."},
   "ev-ai-reliability": {"title": "AI Reliability & Quality", "years": "3+ years experience", "text": "Build AI systems that perform reliably in production by treating the knowledge layer as the priority. SME written or validated content over endless prompt tuning, corpus audits for the percentage actually authored by humans, retrieval and validation management and measurement, and active guarding against the context dilution that comes from LLMs overwriting good context over time. Proven at the Fortune 500 level at Bayer, where agentic personas grounded on internal research and customer data were validated above 80% accuracy by subject matter experts with 20+ years in the field."},
   "ev-rd-lab": {"title": "Personal R&D Lab", "years": "16+ years experience", "text": "My personal life is a constantly running R&D lab — I've been ramping on a new technology at least once a quarter since high school, and my current operating system pairs agentic AI workflows with a digital brain to extend what I can do. I love unfamiliar domains and emerging tech."},
 
@@ -168,13 +172,13 @@ def strategist_prose():
            ["ev-translator", "ev-tech-stack", "ev-design-fluency"], bold=True),
         ": You can ",
         ph("es-integrated-strategies", "create integrated experience strategies that blend business, technology, and user needs",
-           ["ev-translator", "ev-tech-stack", "ev-experience-design"]),
+           ["ev-translator", "ev-tech-stack", "ev-experience-design", "ev-business-design-thinking"]),
         ", ",
         ph("es-customer-first", "advocating for a customer-first approach to ensure all experiences are intuitive and meet user needs",
            ["ev-insights", "ev-product-leadership"]),
         ", including ",
         ph("es-ai-capabilities", "applying AI-driven capabilities such as personalization or automation within defined solutions",
-           ["ev-ai-product", "ev-ai-agents", "pf-cdp"]),
+           ["ev-ai-product", "ev-ai-agents", "pf-cdp", "ev-ai-retrieval"]),
         "."
       ]},
       {"type": "li", "segments": [
@@ -182,7 +186,7 @@ def strategist_prose():
            ["ev-ma", "ev-biz-model"], bold=True),
         ": You ",
         ph("es-business-strategy", "understand business strategy and can connect it to experience and help others understand the value of experience-led outcomes",
-           ["ev-ma", "ev-design-fluency", "ev-exec-alignment", "ev-facilitation"])
+           ["ev-ma", "ev-design-fluency", "ev-exec-alignment", "ev-facilitation", "ev-business-design-thinking"])
       ]},
       {"type": "li", "segments": [
         ph("es-optimization-label", "Experience Optimization",
@@ -192,7 +196,7 @@ def strategist_prose():
            ["ev-present-future", "ev-journey-mapping", "ev-process-optimization"]),
         ", including ",
         ph("es-moments", "moments that could be improved with self-serve, AI, automation, and empowerment across the end-to-end journey",
-           ["ev-agentic-ops", "ev-pm-system", "ev-blueprinting"]),
+           ["ev-agentic-ops", "ev-pm-system", "ev-blueprinting", "ev-knowledge-arch-rows"]),
         ", including ",
         ph("es-usability-efficiency", "leveraging AI, automation, and self-service capabilities to improve usability and efficiency",
            ["ev-agentic-ops", "ev-process-optimization", "ev-testing"]),
@@ -217,13 +221,13 @@ def strategist_prose():
            ["ev-blueprinting", "ev-systems-mapping", "ev-strategic-writing"]),
         " such as ",
         ph("es-experience-maps", "experience maps",
-           ["ev-systems-mapping", "pf-eraf"]),
+           ["ev-systems-mapping", "pf-eraf", "ev-journey-ai"]),
         ", ",
         ph("es-user-journeys", "user journeys",
-           ["ev-journey-mapping", "pf-journey"]),
+           ["ev-journey-mapping", "pf-journey", "ev-journey-ai"]),
         ", and ",
         ph("es-blueprints", "service blueprints",
-           ["ev-blueprinting", "pf-global-blueprint", "pf-local-blueprint"]),
+           ["ev-blueprinting", "pf-global-blueprint", "pf-local-blueprint", "ev-knowledge-arch-rows"]),
         " to ",
         ph("es-articulate-insights", "articulate insights and guide solution development",
            ["ev-insights", "ev-present-future"]),
@@ -372,7 +376,7 @@ def designer_prose():
            ["ev-ai-agents", "ev-ai-product"]),
         ", ",
         ph("ed-ai-standards", "setting standards for human/AI interaction design and process adoption across teams",
-           ["ev-design-standards", "ev-adoption", "ev-responsible-ai"]),
+           ["ev-design-standards", "ev-adoption", "ev-responsible-ai", "ev-knowledge-arch-rows"]),
         "."
       ]},
       {"type": "p", "segments": [
@@ -503,7 +507,7 @@ def designer_prose():
       {"type": "li2", "segments": ["Interface Design"]},
       {"type": "li2", "segments": [
         ph("ed-ia", "Information Architecture",
-           ["ev-ia", "pf-eraf"])
+           ["ev-ia", "pf-eraf", "ev-ai-retrieval"])
       ]},
       {"type": "li2", "segments": ["Graphic Design"]},
       {"type": "li2", "segments": ["Environmental Design"]},
